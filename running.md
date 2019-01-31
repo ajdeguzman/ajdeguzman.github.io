@@ -19,6 +19,8 @@ Below are some of my conquered road and trail runs:
 <br> (December 16, 2018, Pillila, Rizal, 21k)
 
 ### 2017
+- Tagaytay to Maragondon 50k (2-Man Relay) 
+<br> (Feburyary 26, 2017, Tagaytay City, Cavite, 25k)
 - Pinoy Fitness Kasama Run 2016
 <br> (August 20, 2017, SM By The Bay, Mall of Asia, 16k)
 - 41st Milo Marathon 2016
@@ -29,7 +31,7 @@ Below are some of my conquered road and trail runs:
 ### 2016
 - Condura Skyway Marathon (Run for a Hero) 2016
 <br> (February 7, 2016, Filinvest City Alabang, 21k)
-- The Bull Runner Dream Marathon 2016
+- The Bull Runner Dream Marathon 2016 — 5:22:06
 <br> (February 21, 2016, Nuvali Sta. Rosa, Laguna, 42k)
 - Natgeo Earth Day Run 2016
 <br> (April 17, 2016, McKinley West, Taguig City, 21k)
@@ -59,6 +61,10 @@ Below are some of my conquered road and trail runs:
 <br> (November 22, 2015, SM By The Bay, Mall of Asia, 22k)
 
 ### 2013
-Red Cross Million Volunteer Run
-<br> (February, SM Rosales, Pangasinan, 5k)
+- Red Cross Million Volunteer Run
+<br> (February 24, 2013, SM Rosales, Pangasinan, 3k)
+
+- Race for Life (The Buddy Fun Run)
+<br> (November 30, 2013, Robinsons Place Pangasinan, 5k)
+
 

@@ -4,4 +4,14 @@ title: About
 permalink: /about/
 ---
 
-The quick brown fox jumps over the lazy dog.
+Oh, Hi there! I'm Aljohn "Aj" De Guzman. I'm a software engineer by profession and an active runner/marathorer currentyl living in the Philippines.
+
+<br>
+This site is all about software development, running marathons/ultramarathons, trail runnings and other outdoor activities. I'll be sharing all my thoughts, pieces of advice and works here.
+
+<br>
+You may contact me below:
+<br>
+Email: aljohndeguzman [at] gmail [dot] com
+
+

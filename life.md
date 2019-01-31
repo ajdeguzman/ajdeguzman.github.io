@@ -4,4 +4,4 @@ title: Life
 permalink: /life/
 ---
 
-The quick brown fox jumps over the lazy dog.
+Hey! Thanks for dropping by. I'll update this page once I got to know what really "Life" means.
