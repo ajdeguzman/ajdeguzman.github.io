@@ -4,11 +4,19 @@ title: Running
 permalink: /running/
 ---
 
-Below are some of my conquered road and trail runs:
+Below are some of my conquered and upcoming road and trail runs:
+
+## Upcoming Races
+- Cordillera Mountain Ultramarathon 2019
+<br> (Tinongdan, Benguet, Ilocos Region, March 10, 2019, 50k)
+- Sandugo Road to Trail 2019
+<br> (Eastridge, Binangonan, Rizal, March 24, 2019, 15k)
+
+## Conquered Races
 
 ### 2019
 - Bravehearts Trail Run — 
-<br> (Mt. Mapalad, February 3, 2019, 12k)
+<br> (February 3, 2019, Mt. Mapalad, 12k)
 
 ### 2018
 - Soleus Cross Country Challenge 2018 — *05:18:39*{: style="color: blue"}
