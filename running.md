@@ -45,7 +45,7 @@ Below are some of my conquered and upcoming road and trail runs:
 <br> (February 7, 2016, Filinvest City Alabang, 21k)
 - The Bull Runner Dream Marathon 2016 — *5:22:06*{: style="color: blue"}
 <br> (February 21, 2016, Nuvali Sta. Rosa, Laguna, 42k)
-- Natgeo Earth Day Run 2016 — 02:19:59*{: style="color: blue"}
+- Natgeo Earth Day Run 2016 — *02:19:59*{: style="color: blue"}
 <br> (April 17, 2016, McKinley West, Taguig City, 21k)
 - Financial Fitness Run 2016 — *02:13:10*{: style="color: blue"}
 <br> (May 29, 2016, Bonifacio Global City, Taguig City, 21k)
