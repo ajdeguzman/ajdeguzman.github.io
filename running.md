@@ -8,9 +8,11 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 - Cordillera Mountain Ultramarathon 2019
-<br> (Tinongdan, Benguet, Ilocos Region, March 10, 2019, 50k)
+<br> (March 10, 2019, Tinongdan, Benguet, Ilocos Region, 50k)
 - Sandugo Road to Trail 2019
-<br> (Eastridge, Binangonan, Rizal, March 24, 2019, 15k)
+<br> (Rizal, March 24, 2019, Eastridge, Binangonan, 15k)
+- Tawid Mountain Marathon 2019
+<br> (June 8-9, 2019, Bonton Mt. Province, 42k)
 
 ## Conquered Races
 
