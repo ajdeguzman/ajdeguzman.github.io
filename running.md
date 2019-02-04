@@ -8,9 +8,11 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 - Cordillera Mountain Ultramarathon 2019
-<br> (Tinongdan, Benguet, Ilocos Region, March 10, 2019, 50k)
+<br> (March 10, 2019, Tinongdan, Benguet, Ilocos Region, 50k)
 - Sandugo Road to Trail 2019
-<br> (Eastridge, Binangonan, Rizal, March 24, 2019, 15k)
+<br> (Rizal, March 24, 2019, Eastridge, Binangonan, 15k)
+- Tawid Mountain Marathon 2019
+<br> (June 8-9, 2019, Bonton Mt. Province, 42k)
 
 ## Conquered Races
 
@@ -30,7 +32,7 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ### 2017
 - Tagaytay to Maragondon 50k 2017 (2-Man Relay)  — *6:10:32*{: style="color: blue"}
-<br> (Feburyary 26, 2017, Tagaytay City, Cavite, 50k)
+<br> (February 26, 2017, Tagaytay City, Cavite, 50k)
 - Pinoy Fitness Kasama Run 2017 — *02:09:59*{: style="color: blue"}
 <br> (August 20, 2017, SM By The Bay, Mall of Asia, 16k)
 - 41st Milo Marathon 2017 — *02:26:55*{: style="color: blue"}
@@ -63,7 +65,7 @@ Below are some of my conquered and upcoming road and trail runs:
 <br> (July 26, 2015, SM By The Bay, Mall of Asia, 5k)
 - [Subaru Marathon 2015](https://www.pinoyfitness.com/2015/07/subaru-marathon-september-13-2015/) — *02:24:10*{: style="color: blue"}
 <br> (September 13, 2015, SM By The Bay, Mall of Asia, 21k)
-- [Run United Philippine Marathon 2015 (RUPM)](https://www.pinoyfitness.com/2015/10/run-united-philippine-marathon-rupm-2015-results-and-photos/) — 
+- [Run United Philippine Marathon 2015 (RUPM)](https://www.pinoyfitness.com/2015/10/run-united-philippine-marathon-rupm-2015-results-and-photos/) — *02:28:41*{: style="color: blue"}
 <br> (October 4, 2015, SM By The Bay, Mall of Asia, 21k)
 - New Balance Power Run 2015 — *02:38:45*{: style="color: blue"}
 <br> (November 8, 2015, Vista City Daang Hari, Cavite City, 25k)
