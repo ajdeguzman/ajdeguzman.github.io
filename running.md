@@ -8,21 +8,23 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 - Cordillera Mountain Ultramarathon 2019
-<br> (March 10, 2019, Tinongdan, Benguet, Ilocos Region, 50k)
+<br> (March 10, 2019, Tinongdan, Itogon, Benguet, Ilocos Region, 50k)
 - Sandugo Road to Trail 2019
-<br> (Rizal, March 24, 2019, Eastridge, Binangonan, 15k)
+<br> (Rizal, March 24, 2019, Eastridge, Binangonan, Rizal 15k)
 - Tawid Mountain Marathon 2019
-<br> (June 8-9, 2019, Bonton Mt. Province, 42k)
+<br> (June 8-9, 2019, Bontoc, Mt. Province, 42k)
 
 ## Conquered Races
 
 ### 2019
 - Bravehearts Trail Run — 
-<br> (February 3, 2019, Mt. Mapalad, 12k)
+<br> (February 3, 2019, Mt. Mapalad, San Andres, Tanay, Rizal 12k)
 
 ### 2018
+- Accenture Run&Rock 2018 - *52:04:00*{: style="color: blue"}
+<br> (June 23, 2018, ArcoVia City, Pasig City, 8k)
 - Soleus Cross Country Challenge 2018 — *05:18:39*{: style="color: blue"}
-<br> (July 1 2018 2018, Pintong Bukawe, San Mateo Rizal, 21k)
+<br> (July 1, 2018 2018, Pintong Bukawe, San Mateo Rizal, 21k)
 - 42nd Milo Marathon 2018 — *02:28:39*{: style="color: blue"}
 <br> (July 16, 2017, Urdaneta City, Pangasinan, 21k)
 - Pinoy Fitness 21k Challenge 2018 — *02:29:44*{: style="color: blue"}
@@ -32,9 +34,11 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ### 2017
 - Tagaytay to Maragondon 50k 2017 (2-Man Relay)  — *6:10:32*{: style="color: blue"}
-<br> (February 26, 2017, Tagaytay City, Cavite, 50k)
+<br> (February 26, 2017, Tagaytay City, Cavite City, 50k)
 - Pinoy Fitness Kasama Run 2017 — *02:09:59*{: style="color: blue"}
-<br> (August 20, 2017, SM By The Bay, Mall of Asia, 16k)
+<br> (August 20, 2017, SM By The Bay, Mall of Asia, Pasay city 16k)
+- Accenture Run&Rock 2017 - *54:47:05*{: style="color: blue"}
+<br> (June 24, 2017, McKinley West, Taguig City, 8k)
 - 41st Milo Marathon 2017 — *02:26:55*{: style="color: blue"}
 <br> (July 16, 2017, Urdaneta City, Pangasinan, 21k)
 - Cardimax Clark Ultramarathon 2017 — *9:12:46*{: style="color: blue"}
@@ -42,7 +46,7 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ### 2016
 - Condura Skyway Marathon (Run for a Hero) 2016 — 
-<br> (February 7, 2016, Filinvest City Alabang, 21k)
+<br> (February 7, 2016, Filinvest City, Alabang, 21k)
 - The Bull Runner Dream Marathon 2016 — *5:22:06*{: style="color: blue"}
 <br> (February 21, 2016, Nuvali Sta. Rosa, Laguna, 42k)
 - Natgeo Earth Day Run 2016 — *02:19:59*{: style="color: blue"}
