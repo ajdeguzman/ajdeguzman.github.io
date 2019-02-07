@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-See some of my garbage and non-sense projects below:
+See some of my ~~garbage~~ not-so-amazing projects below:
 
 - [Urdaneta City University Website Revamped](https://ajdeguzman.github.com/ucu){:target="_blank"} (A version 2 of the public website of the Urdaneta City University, Urdaneta City, Pangasinan)
 <br> Authors: Aj De Guzman
