@@ -4,4 +4,4 @@ title: Life
 permalink: /life/
 ---
 
-Hey! Thanks for dropping by. I'll update this page once I got to know what really "Life" means.
+Hey! Thanks for dropping by. I'll update this page once I get to know what really "Life" means.
