@@ -17,7 +17,7 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Conquered Races
 
 ### 2019
-- Bravehearts Trail Run — 
+- Bravehearts Trail Run — *02:11:08*{: style="color: blue"}
 <br> (February 3, 2019, Mt. Mapalad, San Andres, Tanay, Rizal 12k)
 
 ### 2018
