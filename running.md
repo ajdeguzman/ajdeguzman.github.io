@@ -85,4 +85,6 @@ Below are some of my conquered and upcoming road and trail runs:
 - Race for Life (The Buddy Fun Run) — 
 <br> (November 30, 2013, Robinsons Place, Calasiao, Pangasinan, 5k)
 
-
+### 2012
+- UCU Fun Run — 
+<br> (July 14, 2012, Urdaneta City University, Pangasinan, 5k)
