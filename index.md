@@ -9,4 +9,8 @@ layout: page
 
 Hi, I'm Aj De Guzman and thanks for dropping by!
 
-I'm currently working as a Software Engineer at a Software Development/Consulting company. And I thought it would be nice to share everything of my works and outdoor activities so I'm writing it here.
+I'm currently working as a Software Engineer at a Software Development/Consulting company. And I thought it would be nice to share everything of my works and outdoor activities so I'm writing it here. When I'm not tossing keyboard, I'm trail running, hiking, or watching Netflix.
+
+<hr>
+
+This site is built with [Jekyll](https://jekyllrb.com) and is hosted on Github Pages. You can fork it [here.](https://github.com/ajdeguzman/ajdeguzman.github.io)
