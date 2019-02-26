@@ -11,6 +11,8 @@ Below are some of my conquered and upcoming road and trail runs:
 <br> (March 10, 2019, Tinongdan, Itogon, Benguet, Ilocos Region, 50k)
 - Sandugo Road to Trail 2019
 <br> (Rizal, March 24, 2019, Eastridge, Binangonan, Rizal 15k)
+- Columbia Trail Masters Trail Fest
+<br> (May 11-12, 2019, La Mesa Eco Park, 12k)
 - Tawid Mountain Marathon 2019
 <br> (June 8-9, 2019, Bontoc, Mt. Province, 42k)
 
