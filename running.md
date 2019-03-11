@@ -7,8 +7,6 @@ permalink: /running/
 Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
-- Cordillera Mountain Ultramarathon 2019
-<br> (March 10, 2019, Tinongdan, Itogon, Benguet, Ilocos Region, 50k)
 - Sandugo Road to Trail 2019
 <br> (Rizal, March 24, 2019, Eastridge, Binangonan, Rizal 15k)
 - Columbia Trail Masters Trail Fest
@@ -19,6 +17,8 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Conquered Races
 
 ### 2019
+- Cordillera Mountain Ultramarathon 2019 — *13:43:06*{: style="color: blue"}
+<br> (March 10, 2019, Tinongdan, Itogon, Benguet, Ilocos Region, 50k)
 - Bravehearts Trail Run — *02:11:08*{: style="color: blue"}
 <br> (February 3, 2019, Mt. Mapalad, San Andres, Tanay, Rizal 12k)
 
