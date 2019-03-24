@@ -23,7 +23,7 @@ Below are some of my conquered and upcoming road and trail runs:
 <br> (February 3, 2019, Mt. Mapalad, San Andres, Tanay, Rizal 12k)
 
 ### 2018
-- Accenture Run&Rock 2018 - *52:04:00*{: style="color: blue"}
+- Accenture Run&Rock 2018 - *00:52:04*{: style="color: blue"}
 <br> (June 23, 2018, ArcoVia City, Pasig City, 8k)
 - Soleus Cross Country Challenge 2018 — *05:18:39*{: style="color: blue"}
 <br> (July 1, 2018 2018, Pintong Bukawe, San Mateo Rizal, 21k)
