@@ -7,8 +7,6 @@ permalink: /running/
 Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
-- Sandugo Road to Trail 2019
-<br> (Rizal, March 24, 2019, Eastridge, Binangonan, Rizal 15k)
 - Columbia Trail Masters Trail Fest
 <br> (May 11-12, 2019, La Mesa Eco Park, 12k)
 - Tawid Mountain Marathon 2019
@@ -17,6 +15,8 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Conquered Races
 
 ### 2019
+- Sandugo Road to Trail Challenge 2019 — *01:55:56*{: style="color: blue"}
+<br> (Rizal, March 24, 2019, Eastridge, Binangonan, Rizal 15k)
 - Cordillera Mountain Ultramarathon 2019 — *13:43:06*{: style="color: blue"}
 <br> (March 10, 2019, Tinongdan, Itogon, Benguet, Ilocos Region, 50k)
 - Bravehearts Trail Run — *02:11:08*{: style="color: blue"}
