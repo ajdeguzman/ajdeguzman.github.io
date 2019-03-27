@@ -15,7 +15,7 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Conquered Races
 
 ### 2019
-- Sandugo Road to Trail Challenge 2019 — *01:55:56*{: style="color: blue"}
+- Sandugo Road to Trail Challenge 2019 — *01:55:27*{: style="color: blue"}
 <br> (March 24, 2019, Eastridge, Binangonan, Rizal 15k)
 - Cordillera Mountain Ultramarathon 2019 — *13:43:06*{: style="color: blue"}
 <br> (March 10, 2019, Tinongdan, Itogon, Benguet, Ilocos Region, 50k)
