@@ -6,7 +6,7 @@ permalink: /projects/
 
 See some of my ~~garbage~~ simple projects below:
 
-- [Area 52 App] [WIP]
+- Area 52 App [WIP] - 
 <br> Authors: Aj De Guzman, Marvin Trecenio
 <br> (2019, Flutter, Dart)
 
