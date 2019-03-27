@@ -4,7 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-See some of my ~~garbage~~ not-so-amazing projects below:
+See some of my ~~garbage~~ simple projects below:
+
+- [Area 52 App] [WIP]
+<br> Authors: Aj De Guzman, Marvin Trecenio
+<br> (2019, Flutter, Dart)
 
 - [Urdaneta City University Website Revamped](https://ajdeguzman.github.com/ucu){:target="_blank"} ([WIP] A version 2 of the public website of the Urdaneta City University, Urdaneta City, Pangasinan)
 <br> Authors: Aj De Guzman  
