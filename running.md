@@ -9,6 +9,8 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Upcoming Races
 - Columbia Trail Masters Trail Fest
 <br> (May 11-12, 2019, La Mesa Eco Park, 12k)
+- Accenture Run & Rock 2019
+<br> (May 18, 2019, Arcovia City, Pasig, 8k)
 - Tawid Mountain Marathon 2019
 <br> (June 8-9, 2019, Bontoc, Mt. Province, 42k)
 
@@ -23,23 +25,23 @@ Below are some of my conquered and upcoming road and trail runs:
 <br> (February 3, 2019, Mt. Mapalad, San Andres, Tanay, Rizal 12k)
 
 ### 2018
-- Accenture Run&Rock 2018 - *00:52:04*{: style="color: blue"}
-<br> (June 23, 2018, ArcoVia City, Pasig City, 8k)
-- Soleus Cross Country Challenge 2018 — *05:18:39*{: style="color: blue"}
-<br> (July 1, 2018 2018, Pintong Bukawe, San Mateo Rizal, 21k)
-- 42nd Milo Marathon 2018 — *02:28:39*{: style="color: blue"}
-<br> (July 16, 2017, Urdaneta City, Pangasinan, 21k)
-- Pinoy Fitness 21k Challenge 2018 — *02:29:44*{: style="color: blue"}
-<br> (November 18, 2018, SM By The Bay, Mall of Asia, 21k)
 - Conquer Rush 21k Challenge Windmill Fan Run 2018 — 
 <br> (December 16, 2018, Pillila, Rizal, 21k)
+- Pinoy Fitness 21k Challenge 2018 — *02:29:44*{: style="color: blue"}
+<br> (November 18, 2018, SM By The Bay, Mall of Asia, 21k)
+- 42nd Milo Marathon 2018 — *02:28:39*{: style="color: blue"}
+<br> (July 16, 2017, Urdaneta City, Pangasinan, 21k)
+- Soleus Cross Country Challenge 2018 — *05:18:39*{: style="color: blue"}
+<br> (July 1, 2018 2018, Pintong Bukawe, San Mateo Rizal, 21k)
+- Accenture Run & Rock 2018 - *00:52:04*{: style="color: blue"}
+<br> (June 23, 2018, ArcoVia City, Pasig City, 8k)
 
 ### 2017
 - Tagaytay to Maragondon 50k 2017 (2-Man Relay)  — *6:10:32*{: style="color: blue"}
 <br> (February 26, 2017, Tagaytay City, Cavite City, 50k)
 - Pinoy Fitness Kasama Run 2017 — *02:09:59*{: style="color: blue"}
 <br> (August 20, 2017, SM By The Bay, Mall of Asia, Pasay city 16k)
-- Accenture Run&Rock 2017 - *54:47:05*{: style="color: blue"}
+- Accenture Run & Rock 2017 - *54:47:05*{: style="color: blue"}
 <br> (June 24, 2017, McKinley West, Taguig City, 8k)
 - 41st Milo Marathon 2017 — *02:26:55*{: style="color: blue"}
 <br> (July 16, 2017, Urdaneta City, Pangasinan, 21k)
