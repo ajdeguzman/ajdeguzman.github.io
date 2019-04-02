@@ -39,6 +39,8 @@ Below are some of my conquered and upcoming road and trail runs:
 ### 2017
 - Tagaytay to Maragondon 50k 2017 (2-Man Relay)  — *6:10:32*{: style="color: blue"}
 <br> (February 26, 2017, Tagaytay City, Cavite City, 50k)
+- Pinoy Fitness Sub 1 10k Challenge  — *00:54:18*{: style="color: blue"}
+<br> (March 26, 2017, SM By The Bay, Mall of Asia, 10k)
 - Pinoy Fitness Kasama Run 2017 — *02:09:59*{: style="color: blue"}
 <br> (August 20, 2017, SM By The Bay, Mall of Asia, Pasay city 16k)
 - Accenture Run & Rock 2017 - *54:47:05*{: style="color: blue"}
