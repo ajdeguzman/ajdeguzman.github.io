@@ -10,6 +10,10 @@ See some of my ~~garbage~~ simple projects below:
 <br> Authors: Aj De Guzman, Marvin Trecenio
 <br> (2019, Flutter, Dart)
 
+- [UCU College of Computer Studies Public Website](https://ucu-ccs.org){:target="_blank"} ([WIP] A public website for the UCU College of Computer Studies)
+<br> Authors: Aj De Guzman  
+<br> (2019, Jekyll, Liquid)
+
 - [Urdaneta City University Website Revamped](https://ajdeguzman.github.com/ucu){:target="_blank"} ([WIP] A version 2 of the public website of the Urdaneta City University, Urdaneta City, Pangasinan)
 <br> Authors: Aj De Guzman  
 <br> (2019, Jekyll, VueJs)
