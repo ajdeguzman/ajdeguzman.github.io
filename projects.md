@@ -10,6 +10,10 @@ See some of my ~~garbage~~ simple projects below:
 <br> Authors: Aj De Guzman, Marvin Trecenio
 <br> (2019, Flutter, Dart)
 
+- [CCS Talk!](https://talkucu-ccs.org){:target="_blank"} ( A forum site for the UCU College of Computer Studies)
+<br> Authors: Aj De Guzman  
+<br> (2019, Discourse)
+
 - [UCU College of Computer Studies Public Website](https://ucu-ccs.org){:target="_blank"} ([WIP] A public website for the UCU College of Computer Studies)
 <br> Authors: Aj De Guzman  
 <br> (2019, Jekyll, Liquid)
