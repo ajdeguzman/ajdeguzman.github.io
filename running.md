@@ -7,16 +7,14 @@ permalink: /running/
 Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
-- Columbia Trail Masters Trail Fest
-<br> (May 11-12, 2019, La Mesa Eco Park, 12k)
-- Accenture Run & Rock 2019
-<br> (May 18, 2019, Arcovia City, Pasig, 8k)
 - Tawid Mountain Marathon 2019
 <br> (June 8-9, 2019, Bontoc, Mt. Province, 42k)
 
 ## Conquered Races
 
 ### 2019
+- Accenture Run & Rock 2019
+<br> (May 18, 2019, Arcovia City, Pasig, 8k)
 - Sandugo Road to Trail Challenge 2019 — *01:55:27*{: style="color: blue"}
 <br> (March 24, 2019, Eastridge, Binangonan, Rizal 15k)
 - Cordillera Mountain Ultramarathon 2019 — *13:43:06*{: style="color: blue"}
