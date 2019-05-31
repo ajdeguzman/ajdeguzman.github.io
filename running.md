@@ -7,13 +7,13 @@ permalink: /running/
 Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
-- Tawid Mountain Marathon 2019
-<br> (June 8-9, 2019, Bontoc, Mt. Province, 42k)
+- Soleus Cross Country Challenge 4 2019
+<br> (July 14, 2019, Bontoc, Timberland Heights)
 
 ## Conquered Races
 
 ### 2019
-- Accenture Run & Rock 2019
+- Accenture Run & Rock 2019 — *01:06:41.57*{: style="color: blue"}
 <br> (May 18, 2019, Arcovia City, Pasig, 8k)
 - Sandugo Road to Trail Challenge 2019 — *01:55:27*{: style="color: blue"}
 <br> (March 24, 2019, Eastridge, Binangonan, Rizal 15k)
