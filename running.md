@@ -7,8 +7,14 @@ permalink: /running/
 Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
+- BPO Olympics 2019
+<br> (July 7, 2019, Timberland Heights)
+
 - Soleus Cross Country Challenge 4 2019
-<br> (July 14, 2019, Bontoc, Timberland Heights)
+<br> (July 14, 2019, Timberland Heights)
+
+- The North Face Trail Run 2019
+<br> (October 19-20, 2019, Benguet)
 
 ## Conquered Races
 
