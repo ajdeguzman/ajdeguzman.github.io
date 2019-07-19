@@ -9,7 +9,7 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Upcoming Races
 
 - The Great U.P. Run 2019
-<br> (August 11, 2019, UP Diliman)
+<br> (August 11, 2019, UP Diliman, 21k)
 
 - The North Face Trail Run 2019
 <br> (October 19-20, 2019, Benguet)
@@ -18,7 +18,7 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ### 2019
 - BPO Olympics 2019
-<br> (July 7, 2019, Timberland Heights)
+<br> (July 7, 2019, Timberland Heights, 5k)
 - Accenture Run & Rock 2019 — *01:06:41.57*{: style="color: blue"}
 <br> (May 18, 2019, Arcovia City, Pasig, 8k)
 - Sandugo Road to Trail Challenge 2019 — *01:55:27*{: style="color: blue"}
