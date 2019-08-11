@@ -9,7 +9,7 @@ layout: page
 
 Hi, I'm Aj De Guzman and thanks for dropping by!
 
-I'm currently working as a Software Engineer at a Software Development/Consulting company. And I thought it would be nice to share everything of my works and outdoor activities so I'm writing it here. When I'm not tossing keyboard, I'm trail running, hiking, or watching Netflix. In my spare time, you can also find me answering questions in [MuleSoft Community Forum](https://forums.mulesoft.com/users/17323/ajdeguzman.html)
+I'm currently working as a Software Engineer at a Software Development/Consulting company. And I thought it would be nice to share everything of my works and outdoor activities so I'm writing it here. When I'm not tossing keyboard, I'm trail running, hiking, or watching Netflix. In my spare time, you can also find me answering questions in [MuleSoft Community Forum](https://help.mulesoft.com/s/profile/0052T00000BzGrSQAV)
 
 <hr>
 
