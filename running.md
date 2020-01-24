@@ -8,11 +8,7 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 
-- The Great U.P. Run 2019
-<br> (August 11, 2019, UP Diliman, 21k)
-
-- The North Face Trail Run 2019
-<br> (October 19-20, 2019, Benguet)
+No upcoming races for now.
 
 ## Conquered Races
 
