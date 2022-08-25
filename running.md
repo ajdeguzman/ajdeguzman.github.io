@@ -12,6 +12,10 @@ No upcoming races for now.
 
 ## Conquered Races
 
+### 2022
+- Calasiao SK Fun Run 2022
+<br> (August 13, 2022, Municipality of Calasiao, 5k)
+
 ### 2019
 - BPO Olympics 2019
 <br> (July 7, 2019, Timberland Heights, 5k)
