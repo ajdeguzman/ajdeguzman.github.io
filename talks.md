@@ -20,3 +20,9 @@ permalink: /talks/
 <br> Urdaneta City University
 <br> Urdaneta, Pangasinan, Philippines
 <br> May 25, 2019
+
+- Industry Exposure Seminar 2018
+<br> Topic: [Writing Good Résumé](https://ajdeguzman.github.io/assets/Writing%20Good%20Résumé.pdf)
+<br> Urdaneta City University
+<br> Urdaneta, Pangasinan, Philippines
+<br> May 24, 2018
