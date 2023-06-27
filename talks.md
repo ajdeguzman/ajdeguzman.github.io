@@ -33,3 +33,7 @@ permalink: /talks/
 <br> Urdaneta City University
 <br> <i class="fa fa-map-pin"></i> Urdaneta, Pangasinan, Philippines
 <br> May 24, 2018
+
+- Industry Exposure Seminar 2017
+<br> Urdaneta City University
+<br> <i class="fa fa-map-pin"></i> Urdaneta, Pangasinan, Philippines
