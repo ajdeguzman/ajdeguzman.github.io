@@ -4,7 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
-- Industry Exposure Seminar 2023
+- Project FIIP 2023
 <br> Topic: [Kickstarting Career in Tech](https://ajdeguzman.github.io/assets/Kickstarting%20Career%20in%20Tech.pdf)
 <br> Urdaneta City University
 <br> <i class="fa fa-map-pin"></i> Urdaneta, Pangasinan, Philippines
