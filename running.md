@@ -8,11 +8,20 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 
-No upcoming races for now.
+- Nueva Ecija Marathon 2024
+<br> June 2, 2024
 
 ## Conquered Races
 
+### 2024
+- Decathlon Half-Marathon 2024
+<br> (April 7, 2024, Clark Parade Grounds, Clark City, Pampanga, 21k)
+
+
 ### 2022
+- Puto Calasiao Run 2022
+<br> (December 11, 2022, Municipality of Calasiao, 5k)
+
 - Calasiao SK Fun Run 2022
 <br> (August 13, 2022, Municipality of Calasiao, 5k)
 
