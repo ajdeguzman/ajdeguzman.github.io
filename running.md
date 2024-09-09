@@ -25,8 +25,6 @@ Below are some of my conquered and upcoming road and trail runs:
 ### 2024
 - Pampanga Marathon 2024
 <br> (September 8, 2024, Clark Parade Grounds, Clark City, Pampanga, 21k)
-
-### 2024
 - Decathlon Half-Marathon 2024
 <br> (April 7, 2024, Clark Parade Grounds, Clark City, Pampanga, 21k)
 
@@ -34,7 +32,6 @@ Below are some of my conquered and upcoming road and trail runs:
 ### 2022
 - Puto Calasiao Run 2022
 <br> (December 11, 2022, Municipality of Calasiao, 5k)
-
 - Calasiao SK Fun Run 2022
 <br> (August 13, 2022, Municipality of Calasiao, 5k)
 
