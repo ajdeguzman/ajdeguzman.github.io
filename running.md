@@ -8,10 +8,23 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 
-- Nueva Ecija Marathon 2024
-<br> June 2, 2024
+- Race4Water Virtual Run
+<br> September 15, 2024
+
+- The Great UP Run
+<br> November 17, 2024
+
+- McDonald’s Stripes Run Run
+<br> December 10, 2024
+
+- Cebu Marathon
+<br> January 12, 2025
 
 ## Conquered Races
+
+### 2024
+- Pampanga Marathon 2024
+<br> (September 8, 2024, Clark Parade Grounds, Clark City, Pampanga, 21k)
 
 ### 2024
 - Decathlon Half-Marathon 2024
