@@ -8,8 +8,8 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 
-- Race4Water Virtual Run
-<br> September 15, 2024
+- Brooks: Run Happy with CSI
+<br> November 9, 2024
 
 - The Great UP Run
 <br> November 17, 2024
@@ -23,6 +23,9 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Conquered Races
 
 ### 2024
+- Race4Water Virtual Run (Calasiao-San Carlos City-Calasiao)
+<br> September 22, 2024
+
 - Pampanga Marathon 2024
 <br> (September 8, 2024, Clark Parade Grounds, Clark City, Pampanga, 21k)
 - Decathlon Half-Marathon 2024
