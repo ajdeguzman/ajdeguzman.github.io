@@ -11,14 +11,9 @@ Below are some of my conquered and upcoming road and trail runs:
 - Brooks: Run Happy with CSI
 <br> November 9, 2024
 
-- The Great UP Run
-<br> November 17, 2024
+- Pokémon Run 2025
+<br> February 9, 2024
 
-- McDonald’s Stripes Run Run
-<br> December 10, 2024
-
-- Cebu Marathon
-<br> January 12, 2025
 
 ## Conquered Races
 
