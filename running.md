@@ -10,7 +10,6 @@ Below are some of my conquered and upcoming road and trail runs:
 
 - Brooks: Run Happy with CSI
 <br> November 9, 2024
-
 - Pokémon Run 2025
 <br> February 9, 2024
 
@@ -18,12 +17,11 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Conquered Races
 
 ### 2024
-- Race4Water Virtual Run (Calasiao-San Carlos City-Calasiao)
+- [Race4Water Virtual Run (Calasiao-San Carlos City-Calasiao)](https://www.strava.com/activities/12470785798)
 <br> September 22, 2024
-
-- Pampanga Marathon 2024
+- [Pampanga Marathon 2024] (https://www.strava.com/activities/12355375455)
 <br> (September 8, 2024, Clark Parade Grounds, Clark City, Pampanga, 21k)
-- Decathlon Half-Marathon 2024
+- [Decathlon Half-Marathon 2024] (https://www.strava.com/activities/12099066973)
 <br> (April 7, 2024, Clark Parade Grounds, Clark City, Pampanga, 21k)
 
 
