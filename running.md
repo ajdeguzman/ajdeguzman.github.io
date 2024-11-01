@@ -11,7 +11,7 @@ Below are some of my conquered and upcoming road and trail runs:
 - Brooks: Run Happy with CSI
 <br> November 9, 2024
 - Pokémon Run 2025
-<br> February 9, 2024
+<br> February 9, 2025
 
 
 ## Conquered Races
