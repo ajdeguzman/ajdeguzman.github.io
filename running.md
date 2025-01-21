@@ -8,8 +8,17 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 
-- Pokémon Run 2025
-<br> February 9, 2025
+- Lingayen Gulf Run 2025
+<br> February 22, 2025
+
+- One Big Run 2025
+<br> May 18, 2025
+
+- Pampanga Marathon 2025
+<br> September, 2025
+
+- Standard Chartered Singapore Marathon 2025
+<br> December 7, 2025
 
 
 ## Conquered Races
