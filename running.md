@@ -8,11 +8,11 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 
-- Lingayen Gulf Run 2025
-<br> February 22, 2025
-
 - One Big Run 2025
 <br> May 18, 2025
+
+- Nueva Ecija Marathon 2025
+<br> July, 2025
 
 - Pampanga Marathon 2025
 <br> September, 2025
@@ -22,6 +22,10 @@ Below are some of my conquered and upcoming road and trail runs:
 
 
 ## Conquered Races
+
+### 2025
+- [Lingayen Gulf Run (Lingayen, Pangasinan)](https://www.strava.com/activities/13690895157)
+<br> February 22, 2025
 
 ### 2024
 - [Brooks: Run Happy with CSI (Dagupan City)](https://www.strava.com/activities/12871969762)
