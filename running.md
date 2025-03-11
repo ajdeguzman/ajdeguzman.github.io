@@ -8,6 +8,9 @@ Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 
+- Citigym Happy Run 2025
+<br> April 5, 2025
+
 - One Big Run 2025
 <br> May 18, 2025
 
