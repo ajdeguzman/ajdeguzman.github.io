@@ -7,9 +7,9 @@ layout: page
 
 <img style="float:left; object-fit: cover; border-radius:50%; margin: 8px 50px" width="200" height="200" src="assets/profile.jpg" alt="Profile">
 
-Hi, I'm Aj De Guzman and thanks for dropping by!
+Hi, I'm Aj and thanks for dropping by!
 
-I work for [Accenture](https://www.accenture.com/ph-en) where I have the exceedingly inappropriate title of "Software Engineer". I thought it would be nice to share everything of my works and outdoor activities so I'm writing it here. When I'm not tossing keyboard, I'm trail running, hiking, or watching Netflix. In my spare time, you can also find me answering questions in [MuleSoft Community Forum](https://help.mulesoft.com/s/profile/0052T00000BzGrSQAV)
+I work for [J4RVIS](https://j4rvis.com/) as an Integration Developer. I thought it would be nice to share everything of my works and outdoor activities so I'm writing it here. When I'm not tossing keyboard, I'm running, hiking, or watching Netflix. In my spare time, you can also find me answering questions in [MuleSoft Community Forum](https://help.mulesoft.com/s/profile/0052T00000BzGrSQAV)
 
 <hr>
 
