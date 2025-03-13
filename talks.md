@@ -13,7 +13,7 @@ permalink: /talks/
 ## Past Talks
 
 - MuleCasts Presents: Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth
-<br> Topic: [Kickstarting Career in Tech](https://ajdeguzman.github.io/assets/Kickstarting%20Career%20in%20Tech.pdf)
+<br> Topic: Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth
 <br> Upper Room, Hiraya Bldg
 <br> <i class="fa fa-map-pin"></i> Urdaneta, Pangasinan, Philippines
 <br> September 28, 2024
