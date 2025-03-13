@@ -5,7 +5,7 @@
 layout: page
 ---
 
-<img style="float:left; object-fit: cover; border-radius:50%; margin: 8px 50px" width="200" height="200" src="assets/profile.jpg" alt="Profile">
+<img style="float:left; object-fit: cover; border-radius:50%; margin: 8px 50px" width="200" height="200" src="assets/profile1.jpg" alt="Profile">
 
 Hi, I'm Aj and thanks for dropping by!
 
