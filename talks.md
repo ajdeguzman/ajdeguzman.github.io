@@ -3,6 +3,20 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
+## Upcoming Talks
+- MuleSoft Connect in Cebu: Integrate, Innovate, Elevate!
+<br> Topic: [Anypoint Code Builder: The Future of MuleSoft Development]
+<br> 14.49 CVC MPH, e-Bloc Tower 2
+<br> <i class="fa fa-map-pin"></i> Cebu City, Philippines
+<br> April 04, 2025
+
+## Past Talks
+
+- MuleCasts Presents: Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth
+<br> Topic: [Kickstarting Career in Tech](https://ajdeguzman.github.io/assets/Kickstarting%20Career%20in%20Tech.pdf)
+<br> Upper Room, Hiraya Bldg
+<br> <i class="fa fa-map-pin"></i> Urdaneta, Pangasinan, Philippines
+<br> September 28, 2024
 
 - Project FIIP 2023
 <br> Topic: [Kickstarting Career in Tech](https://ajdeguzman.github.io/assets/Kickstarting%20Career%20in%20Tech.pdf)
