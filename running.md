@@ -27,14 +27,18 @@ Below are some of my conquered and upcoming road and trail runs:
 ## Conquered Races
 
 ### 2025
-- [Lingayen Gulf Run (Lingayen, Pangasinan)](https://www.strava.com/activities/13690895157)
-<br> February 22, 2025
+- [Pinoy Fitness: Girl Power Virtual Run](https://www.strava.com/activities/13893268053)
+<br> (March 16, 2025, Calasiao-Malasiqui-San Carlos-Calasiao, Pangasinan, 25k)
+
+### 2025
+- [Lingayen Gulf Run](https://www.strava.com/activities/13690895157)
+<br> (February 22, 2025, Lingayen, Pangasinan, 21k)
 
 ### 2024
 - [Brooks: Run Happy with CSI (Dagupan City)](https://www.strava.com/activities/12871969762)
-<br> November 9, 2024
+<br> (November 9, 2024, Dagupan City, Pangasinan, 10k)
 - [Race4Water Virtual Run (Calasiao-San Carlos City-Calasiao)](https://www.strava.com/activities/12470785798)
-<br> September 22, 2024
+<br> (September 22, 2024, Calasiao-Malasiqui-San Carlos-Calasiao, 21k)
 - [Pampanga Marathon 2024](https://www.strava.com/activities/12355375455)
 <br> (September 8, 2024, Clark Parade Grounds, Clark City, Pampanga, 21k)
 - [Decathlon Half-Marathon 2024](https://www.strava.com/activities/12099066973)
