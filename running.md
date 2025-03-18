@@ -20,6 +20,9 @@ Below are some of my conquered and upcoming road and trail runs:
 - Pampanga Marathon 2025
 <br> September, 2025
 
+- Clark City Marathon 2025
+<br> October, 2025
+
 - Standard Chartered Singapore Marathon 2025
 <br> December 7, 2025
 
@@ -29,8 +32,6 @@ Below are some of my conquered and upcoming road and trail runs:
 ### 2025
 - [Pinoy Fitness: Girl Power Virtual Run](https://www.strava.com/activities/13893268053)
 <br> (March 16, 2025, Calasiao-Malasiqui-San Carlos-Calasiao, Pangasinan, 25k)
-
-### 2025
 - [Lingayen Gulf Run](https://www.strava.com/activities/13690895157)
 <br> (February 22, 2025, Lingayen, Pangasinan, 21k)
 
