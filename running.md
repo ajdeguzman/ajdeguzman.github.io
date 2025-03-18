@@ -4,7 +4,6 @@ title: Running
 permalink: /running/
 ---
 
-Below are some of my conquered and upcoming road and trail runs:
 
 ## Upcoming Races
 
