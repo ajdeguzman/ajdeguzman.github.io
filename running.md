@@ -7,14 +7,14 @@ permalink: /running/
 
 ## Upcoming Races
 
-- Citigym Happy Run 2025
-<br> April 5, 2025
-
 - One Big Run 2025
 <br> May 18, 2025
 
 - Nueva Ecija Marathon 2025
 <br> July, 2025
+
+- Race for Life 2025: Takbo para sa Pangarap
+<br> August, 2025
 
 - Pampanga Marathon 2025
 <br> September, 2025
@@ -29,6 +29,8 @@ permalink: /running/
 ## Conquered Races
 
 ### 2025
+- Citigym Happy Run 2025
+<br> (April 5, 2025, Lahug, Cebu City, 12k)
 - [Pinoy Fitness: Girl Power Virtual Run](https://www.strava.com/activities/13893268053)
 <br> (March 16, 2025, Calasiao-Malasiqui-San Carlos-Calasiao, Pangasinan, 25k)
 - [Lingayen Gulf Run](https://www.strava.com/activities/13690895157)
