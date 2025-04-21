@@ -3,14 +3,14 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
-## Upcoming Talks
+
+
+## Past Talks
 - MuleSoft Connect in Cebu: Integrate, Innovate, Elevate!
 <br> Topic: Anypoint Code Builder: The Future of MuleSoft Development
 <br> 14.49 CVC MPH, e-Bloc Tower 2
 <br> <i class="fa fa-map-pin"></i> Cebu City, Philippines
 <br> April 04, 2025
-
-## Past Talks
 
 - MuleCasts Presents: Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth
 <br> Topic: Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth
