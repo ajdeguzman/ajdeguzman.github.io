@@ -29,7 +29,7 @@ permalink: /running/
 ## Conquered Races
 
 ### 2025
-- Citigym Happy Run 2025
+- [Citigym Happy Run 2025](https://www.strava.com/activities/14091602387)
 <br> (April 5, 2025, Lahug, Cebu City, 12k)
 - [Pinoy Fitness: Girl Power Virtual Run](https://www.strava.com/activities/13893268053)
 <br> (March 16, 2025, Calasiao-Malasiqui-San Carlos-Calasiao, Pangasinan, 25k)
