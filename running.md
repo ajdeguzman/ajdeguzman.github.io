@@ -7,8 +7,8 @@ permalink: /running/
 
 ## Upcoming Races
 
-- One Big Run 2025
-<br> May 18, 2025
+- Pinoy Fitness: Mother's Day Run 2025
+<br> May 11, 2025
 
 - Nueva Ecija Marathon 2025
 <br> July, 2025
