@@ -4,31 +4,26 @@ title: Running
 permalink: /running/
 ---
 
-
 ## Upcoming Races
 
-- Pinoy Fitness: Mother's Day Run 2025
-<br> May 11, 2025
-
 - Nueva Ecija Marathon 2025
-<br> July, 2025
+<br> July 6, 2025
 
 - Race for Life 2025: Takbo para sa Pangarap
-<br> August, 2025
+<br> August 16, 2025
 
 - Pampanga Marathon 2025
-<br> September, 2025
+<br> September 21, 2025
 
 - Clark City Marathon 2025
-<br> October, 2025
-
-- Standard Chartered Singapore Marathon 2025
-<br> December 7, 2025
+<br> October 26, 2025
 
 
 ## Conquered Races
 
 ### 2025
+- [Pinoy Fitness: Mother's Day Run 2025](https://www.strava.com/activities/14440396287)
+<br> (May 11, 2025, Calasiao-Sta Barbara-Calasiao, 21k)
 - [Citigym Happy Run 2025](https://www.strava.com/activities/14091602387)
 <br> (April 5, 2025, Lahug, Cebu City, 12k)
 - [Pinoy Fitness: Girl Power Virtual Run](https://www.strava.com/activities/13893268053)
