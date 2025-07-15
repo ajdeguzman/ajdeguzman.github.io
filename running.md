@@ -6,12 +6,6 @@ permalink: /running/
 
 ## Upcoming Races
 
-- Pinoy Fitness: Father's Day Virtual Run 2025
-<br> June 15, 2025
-
-- Nueva Ecija Marathon 2025
-<br> July 6, 2025
-
 - Race for Life 2025: Takbo para sa Pangarap
 <br> August 16, 2025
 
@@ -25,6 +19,8 @@ permalink: /running/
 ## Conquered Races
 
 ### 2025
+- [Nueva Ecija Marathon 2025](https://www.strava.com/activities/15019529611)
+<br> (July 6, 2025, Guimba, Nueva Ecija, 21k)
 - [Pinoy Fitness: Mother's Day Virtual Run 2025](https://www.strava.com/activities/14440396287)
 <br> (May 11, 2025, Calasiao-Sta Barbara-Calasiao, 21k)
 - [Citigym Happy Run 2025](https://www.strava.com/activities/14091602387)
