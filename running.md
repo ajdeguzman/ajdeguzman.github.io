@@ -6,19 +6,21 @@ permalink: /running/
 
 ## Upcoming Races
 
-- Race for Life 2025: Takbo para sa Pangarap
-<br> August 16, 2025
-
-- Pampanga Marathon 2025
-<br> September 21, 2025
+- Race4Water Virtual Run 2025
+<br> September 24, 2025
 
 - Clark City Marathon 2025
 <br> October 26, 2025
+
+- Santer Barley Trilogy Run Asia 2025
+<br> November 09, 2025
 
 
 ## Conquered Races
 
 ### 2025
+- [Race for Life 2025: Takbo para sa Pangarap](http://strava.com/activities/15472412107)
+<br> (August 16, 2025, Lingayen, Pangasinan, 5k)
 - [Nueva Ecija Marathon 2025](https://www.strava.com/activities/15019529611)
 <br> (July 6, 2025, Guimba, Nueva Ecija, 21k)
 - [Pinoy Fitness: Mother's Day Virtual Run 2025](https://www.strava.com/activities/14440396287)
