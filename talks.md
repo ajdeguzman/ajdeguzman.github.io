@@ -5,7 +5,7 @@ permalink: /talks/
 ---
 ## Upcoming
 - Philippine Society of Information Technology Educators (PSITE) Region 1
-<br> Topic: How the IT Industry is moving towards AI-driven Software Development
+<br> Topic: Human in the Lead: Staying in charge as AIreshapes Software Development
 <br> Zoom Meeting
 <br> August 14, 2026
 
