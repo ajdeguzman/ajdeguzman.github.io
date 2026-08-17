@@ -4,18 +4,18 @@ title: Talks
 permalink: /talks/
 ---
 ## Past Talks
-- Philippine Society of Information Technology Educators (PSITE) Region 1
-<br> Topic: [Human in the Lead: Staying in charge as AI reshapes Software Development](https://www.facebook.com/share/p/19MpE2EKij/)
+- [Philippine Society of Information Technology Educators (PSITE) Region 1](https://www.facebook.com/share/p/19MpE2EKij/)
+<br> Topic: Human in the Lead: Staying in charge as AI reshapes Software Development
 <br> Zoom Meeting
 <br> August 14, 2026
 
-- MuleSoft Connect in Cebu: Integrate, Innovate, Elevate!
-<br> Topic: [Anypoint Code Builder: The Future of MuleSoft Development](https://meetups.mulesoft.com/events/details/mulesoft-cebu-presents-mulesoft-connect-in-cebu-integrate-innovate-elevate/)
+- [MuleSoft Connect in Cebu: Integrate, Innovate, Elevate!](https://meetups.mulesoft.com/events/details/mulesoft-cebu-presents-mulesoft-connect-in-cebu-integrate-innovate-elevate/)
+<br> Topic: Anypoint Code Builder: The Future of MuleSoft Development
 <br> 14.49 CVC MPH, e-Bloc Tower 2
 <br> <i class="fa fa-map-pin"></i> Cebu City, Philippines
 <br> April 04, 2025
 
-- MuleCasts Presents: Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth
+- [MuleCasts Presents: Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth](https://www.facebook.com/share/p/18LGhWz54T/)
 <br> Topic: Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth
 <br> Upper Room, Hiraya Bldg
 <br> <i class="fa fa-map-pin"></i> Urdaneta, Pangasinan, Philippines
