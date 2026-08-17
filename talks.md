@@ -3,14 +3,12 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
-## Upcoming
+## Past Talks
 - Philippine Society of Information Technology Educators (PSITE) Region 1
-<br> Topic: Human in the Lead: Staying in charge as AIreshapes Software Development
+<br> Topic: [Human in the Lead: Staying in charge as AIreshapes Software Development](https://www.facebook.com/share/p/19MpE2EKij/)
 <br> Zoom Meeting
 <br> August 14, 2026
 
-
-## Past Talks
 - MuleSoft Connect in Cebu: Integrate, Innovate, Elevate!
 <br> Topic: [Anypoint Code Builder: The Future of MuleSoft Development](https://meetups.mulesoft.com/events/details/mulesoft-cebu-presents-mulesoft-connect-in-cebu-integrate-innovate-elevate/)
 <br> 14.49 CVC MPH, e-Bloc Tower 2
