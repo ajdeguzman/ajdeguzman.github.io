@@ -5,7 +5,7 @@ permalink: /talks/
 ---
 ## Past Talks
 - Philippine Society of Information Technology Educators (PSITE) Region 1
-<br> Topic: [Human in the Lead: Staying in charge as AIreshapes Software Development](https://www.facebook.com/share/p/19MpE2EKij/)
+<br> Topic: [Human in the Lead: Staying in charge as AI reshapes Software Development](https://www.facebook.com/share/p/19MpE2EKij/)
 <br> Zoom Meeting
 <br> August 14, 2026
 
