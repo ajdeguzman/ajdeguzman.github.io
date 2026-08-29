@@ -56,7 +56,7 @@ minima:
     # telegram: jekyll
     strava: ajdeguzman
     # microdotblog: jekyll
-    # rss: rss
+    rss: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

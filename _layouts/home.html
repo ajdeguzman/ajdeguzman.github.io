@@ -9,20 +9,6 @@ layout: default
 
   {{ content }}
 
-  {%- assign social = site.minima.social_links -%}
-  <p class="home-social">
-    {%- if social.github -%}
-      <a href="https://github.com/{{ social.github | cgi_escape | escape }}"><svg class="svg-icon grey" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg><span>GitHub</span></a>
-    {%- endif -%}
-    {%- if social.linkedin -%}
-      <a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}"><svg class="svg-icon grey" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg><span>LinkedIn</span></a>
-    {%- endif -%}
-    {%- if social.strava -%}
-      <a href="https://strava.com/athletes/{{ social.strava | escape }}"><svg class="svg-icon grey" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#strava' | relative_url }}"></use></svg><span>Strava</span></a>
-    {%- endif -%}
-    <a href="{{ "/feed.xml" | relative_url }}"><svg class="svg-icon grey" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>RSS</span></a>
-  </p>
-
   <hr>
 
   <div class="home-sections">

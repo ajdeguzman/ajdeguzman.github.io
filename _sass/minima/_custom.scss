@@ -12,7 +12,6 @@ h1, h2, h3, h4, h5, h6,
 .section-heading,
 .post-title,
 .post-meta,
-.home-social,
 .footer-heading {
   font-family: $heading-font-family;
 }
@@ -148,21 +147,6 @@ a:visited {
 /**
  * Home — intro, social row, then side-by-side sections.
  */
-.home-social {
-  margin-top: $spacing-unit / 2;
-
-  a {
-    display: inline-block;
-    margin-right: $spacing-unit / 2;
-    white-space: nowrap;
-    color: $grey-color-dark;
-
-    &:hover { color: $brand-color; text-decoration: none; }
-    &:hover .svg-icon { fill: currentColor; }
-  }
-
-  .svg-icon { margin-right: 2px; }
-}
 
 .home-sections {
   display: flex;
