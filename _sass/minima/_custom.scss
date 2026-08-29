@@ -142,14 +142,28 @@ a:visited {
   column-gap: 0.6em;
   row-gap: 0.2em;
 
+  /* State every colour explicitly. Declaring only the default let the global
+     `a:visited` rule (green) take over once a link had been clicked, so the
+     menu changed colour as you browsed. */
   .page-link {
-    color: $text-color;
     line-height: $base-line-height;
+
+    &,
+    &:visited {
+      color: $brand-color;
+    }
+
+    &:hover {
+      color: $text-color;
+      text-decoration: underline;
+    }
   }
 
+  /* $grey-color-light is #e8e8e8 — 1.2:1 on the page background, effectively
+     invisible. $grey-color gives 3.78:1 and still recedes behind the labels. */
   .nav-sep {
     margin: 0;
-    color: $grey-color-light;
+    color: $grey-color;
     user-select: none;
   }
 }
