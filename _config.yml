@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Thoughts on everything software development, running, environment and life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-tagline: Integration Developer, J4RVIS | MSc CS Student, University of the Cordilleras
+tagline:
 profile_image: /assets/profile-dithered.png
 
 # Order of the links in the site header. Only pages listed here appear.
@@ -68,6 +68,18 @@ minima:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Comments, via Utterances (https://utteranc.es/) — each article's thread is a
+# GitHub Issue on this repo. Two one-time prerequisites: install the utterances
+# GitHub App on the repo, and keep the repo public with Issues enabled.
+#
+# Posts get comments automatically. Pages opt in with `comments: true` in their
+# front matter; any post or page can opt out with `comments: false`.
+utterances:
+  repo: ajdeguzman/ajdeguzman.github.io
+  issue_term: pathname      # thread is matched to the page's URL path
+  label: comment            # label applied to the created issues
+  theme: github-light       # the site has no dark mode
 
 # Words left lowercase when the gallery Title Cases a filename (unless they
 # land first or last). Edit to taste.

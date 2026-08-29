@@ -369,6 +369,26 @@ a:visited {
   color: $grey-color;
 }
 
+/**
+ * Comments (Utterances). The widget injects its own iframe with class
+ * .utterances; it defaults to max-width 760px, which already sits inside our
+ * content column.
+ */
+.comments {
+  margin-top: $spacing-unit * 1.5;
+  padding-top: $spacing-unit;
+  border-top: 1px solid $grey-color-light;
+}
+
+.comments-heading {
+  @include relative-font-size(1.25);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.utterances {
+  max-width: 100%;
+}
+
 @include media-query($on-palm) {
   .site-identity {
     flex-direction: column;

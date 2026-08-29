@@ -1,0 +1,32 @@
+{%- comment -%}
+  Utterances — comments backed by GitHub Issues (https://utteranc.es/).
+
+  Renders only when site.utterances.repo is set, and can be turned off for a
+  single post or page with `comments: false` in its front matter.
+
+  Requires, one time:
+    1. the utterances GitHub App installed on the repo
+    2. the repo public, with Issues enabled
+{%- endcomment -%}
+
+{%- if site.utterances.repo and page.comments != false -%}
+<section class="comments" aria-label="Comments">
+  <h2 class="comments-heading">Comments</h2>
+
+  <script src="https://utteranc.es/client.js"
+          repo="{{ site.utterances.repo }}"
+          issue-term="{{ site.utterances.issue_term | default: 'pathname' }}"
+          {%- if site.utterances.label %}
+          label="{{ site.utterances.label }}"
+          {%- endif %}
+          theme="{{ site.utterances.theme | default: 'github-light' }}"
+          crossorigin="anonymous"
+          async>
+  </script>
+
+  <noscript>
+    Comments need JavaScript. You can still
+    <a href="https://github.com/{{ site.utterances.repo }}/issues">comment over on GitHub</a>.
+  </noscript>
+</section>
+{%- endif -%}

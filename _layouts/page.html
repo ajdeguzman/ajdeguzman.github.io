@@ -11,4 +11,12 @@ layout: default
     {{ content }}
   </div>
 
+  {%- comment -%}
+    Index pages (Notebook, Talks, Races, Projects) shouldn't carry comments,
+    so pages opt in with `comments: true` rather than opting out.
+  {%- endcomment -%}
+  {%- if page.comments -%}
+    {%- include comments.html -%}
+  {%- endif -%}
+
 </article>
