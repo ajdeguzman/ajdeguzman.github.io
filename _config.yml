@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Thoughts on everything software development, running, environment and life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-tagline:
+tagline: Integration Developer, J4RVIS | MSc CS Student, University of the Cordilleras
 profile_image: /assets/profile-dithered.png
 
 # Order of the links in the site header. Only pages listed here appear.

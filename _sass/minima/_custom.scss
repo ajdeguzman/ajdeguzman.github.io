@@ -131,14 +131,24 @@ a:visited {
   color: $grey-color;
   font-size: $small-font-size;
 
+  /* Flex rather than inline text. The separators are emitted with Liquid's
+     whitespace-stripping tags, which leaves no spaces between the links and so
+     no break opportunities — as one inline run the nav overflowed narrow
+     screens instead of wrapping. flex-wrap restores wrapping, and the column
+     gap keeps the dot centred without relying on margins. */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.6em;
+  row-gap: 0.2em;
+
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
   }
 
-  /* Equal margin on both sides, so the dot sits centred between the links. */
   .nav-sep {
-    margin: 0 0.6em;
+    margin: 0;
     color: $grey-color-light;
     user-select: none;
   }
@@ -384,6 +394,13 @@ a:visited {
     }
 
     img { width: 100px; height: 100px; }
+  }
+
+  .site-nav {
+    column-gap: 0.9em;
+    row-gap: 0.35em;
+
+    .nav-sep { display: none; }
   }
 
   .home-sections {
