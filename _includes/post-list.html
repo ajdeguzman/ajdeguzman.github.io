@@ -1,0 +1,26 @@
+{%- comment -%}
+  Dated post index, shared by the Notebook and Life pages.
+
+    posts   — the list to render
+    exclude — optional category to leave out (lets one page act as the
+              default bucket for everything not filed elsewhere)
+    empty   — text shown when nothing matches
+{%- endcomment -%}
+
+{%- assign shown = 0 -%}
+<ul class="notebook-list">
+{%- for post in include.posts -%}
+  {%- if include.exclude and post.categories contains include.exclude -%}
+    {%- continue -%}
+  {%- endif -%}
+  {%- assign shown = shown | plus: 1 -%}
+  <li>
+    <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span> &raquo;
+    <a href="{{ post.url | relative_url }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a>
+    {%- if post.featured %} <span class="featured" title="Featured">&#9733;</span>{%- endif -%}
+  </li>
+{%- endfor -%}
+{%- if shown == 0 -%}
+  <li>{{ include.empty | default: "Nothing here yet." }}</li>
+{%- endif -%}
+</ul>

@@ -25,8 +25,9 @@ profile_image: /assets/profile-dithered.png
 # Order of the links in the site header. Only pages listed here appear.
 header_pages:
   - about.md
-  - notebook.md
+  - life.md
   - projects.md
+  - notebook.md
   - talks.md
   - races.md
 
