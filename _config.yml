@@ -28,7 +28,7 @@ header_pages:
   - notebook.md
   - projects.md
   - talks.md
-  - running.md
+  - races.md
 
 
 # Analytics. GoatCounter is cookie-free, so no consent banner is needed.
@@ -68,3 +68,22 @@ minima:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Words left lowercase when the gallery Title Cases a filename (unless they
+# land first or last). Edit to taste.
+# NB: quoted — YAML reads bare on/off/yes/no as booleans, so "on" would
+# otherwise become true and never match.
+title_case_minor_words: ["a", "an", "and", "as", "at", "but", "by", "for", "from",
+                         "in", "nor", "of", "on", "or", "the", "to", "via", "vs", "with"]
+
+# Jekyll's own defaults are REPLACED (not extended) when this key is set, so the
+# stock entries are repeated here. vendor/ matters: that's where bundler installs
+# gems locally, and it must never be copied into _site.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .bundle/
+  - script/
+  - assets/races/README.md   # notes for me, not a page (jekyll-readme-index would publish it)

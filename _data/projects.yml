@@ -1,0 +1,42 @@
+# Projects, newest first — rendered by projects.md in the same dated-list style
+# as the notebook, talks and races pages.
+#
+#   year          : display year
+#   name          : project name
+#   url           : optional — live site or store listing
+#   description   : one line, what it is
+#   tech          : the stack, comma-separated
+#   collaborators : optional — co-authors besides you
+
+- year: 2019
+  name: CCS Talk!
+  url: https://talkucu-ccs.org
+  description: A forum site for the UCU College of Computer Studies
+  tech: Discourse
+
+- year: 2019
+  name: Urdaneta City University Website Revamped
+  url: https://ajdeguzman.github.io/ucu.edu.ph
+  description: A version 2 of the public website of Urdaneta City University
+  tech: Jekyll, Vue.js
+
+- year: 2016
+  name: Nutrivision
+  url: https://play.google.com/store/apps/details?id=edu.ucuccs.nutrivision
+  description: >-
+    A photo analyzer app that reports food nutrient details such as protein
+    and carb content
+  tech: Android/Java, Nutritionix API, Clarifai, Slim Framework
+  collaborators: Marvin Trecenio, Byron Mairina, Justin Flores
+
+- year: 2015
+  name: Urdaneta City University Website
+  url: https://ucu.edu.ph
+  description: The public website of Urdaneta City University
+  tech: WordPress, MySQL
+
+- year: 2014
+  name: Debt Note
+  url: https://play.google.com/store/apps/details?id=com.ajdeguzman.debtnote
+  description: An app for keeping track and control of your debts
+  tech: Android/Java, SQLite

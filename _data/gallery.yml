@@ -1,0 +1,5 @@
+# Optional caption overrides for /races/gallery/, keyed by exact filename.
+# Any photo in assets/races/ without an entry here derives its caption from
+# its filename instead. Example:
+#
+# "2025-10-26-clark-city-marathon.jpg": "Final 2km at Clark — first sub-2:20 half"

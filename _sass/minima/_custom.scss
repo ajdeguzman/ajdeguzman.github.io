@@ -29,6 +29,17 @@ samp {
 }
 
 /**
+ * Links
+ * minima derives the visited colour with darken($brand-color, 15%). That was
+ * tuned for a mid-tone blue; against a green this dark it lands near-black
+ * (#142E10) and stops reading as a link at all. 6% keeps it distinguishable
+ * from unvisited without falling out of the palette.
+ */
+a:visited {
+  color: darken($brand-color, 6%);
+}
+
+/**
  * Site identity — profile image beside title, tagline and inline nav.
  * Replaces minima's default title-left / nav-right header.
  */
@@ -64,6 +75,13 @@ samp {
     display: inline;
     padding: 0;
     margin-left: 0;
+  }
+
+  /* minima adds margin-right: 20px to every link but the last, at higher
+     specificity than the rule above. Left in place it sits only on one side
+     of the separator, so the dot reads off-centre. */
+  .page-link:not(:last-child) {
+    margin-right: 0;
   }
 }
 
@@ -117,6 +135,13 @@ samp {
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+  }
+
+  /* Equal margin on both sides, so the dot sits centred between the links. */
+  .nav-sep {
+    margin: 0 0.6em;
+    color: $grey-color-light;
+    user-select: none;
   }
 }
 
@@ -184,9 +209,13 @@ samp {
 }
 
 /**
- * Notebook — reverse-chronological index of every post.
+ * Dated lists — the notebook index and the talks page share one format:
+ * a fixed-width date, a guillemet, then the linked title.
  */
-.notebook-list {
+.notebook-list,
+.talk-list,
+.race-list,
+.project-list {
   margin-left: 0;
   list-style: none;
 
@@ -202,6 +231,142 @@ samp {
   .featured {
     color: $orange-color;
   }
+}
+
+/* Talks carry a second line for the event and place. Indent it to sit under
+   the title rather than the date. */
+.talk-list {
+  > li {
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  .talk-venue {
+    display: block;
+    margin-left: 7.5em;
+    font-size: $small-font-size;
+    color: $grey-color;
+
+    a {
+      color: $grey-color;
+
+      &:hover { color: $brand-color; text-decoration: underline; }
+    }
+  }
+}
+
+/* Projects mirror the race rows: stack first, then what it was. */
+.project-list {
+  > li {
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  .post-meta {
+    min-width: 4.5em;
+  }
+
+  .project-meta {
+    display: block;
+    margin-left: 5.5em;
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
+
+  .project-tech {
+    color: $grey-color-dark;
+    font-weight: 500;
+  }
+}
+
+/* Races carry a second line for distance, place and finish time. */
+.race-list {
+  margin-bottom: $spacing-unit;
+
+  > li {
+    margin-bottom: $spacing-unit / 2.5;
+  }
+
+  .post-meta {
+    min-width: 4.5em;
+  }
+
+  .race-meta {
+    display: block;
+    margin-left: 5.5em;
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
+
+  .race-distance {
+    color: $grey-color-dark;
+    font-weight: 500;
+  }
+}
+
+.race-year {
+  @include relative-font-size(1.15);
+  margin-bottom: $spacing-unit / 3;
+  color: $grey-color-dark;
+}
+
+/**
+ * Race gallery — fixed 200x182 cells, caption revealed on hover.
+ */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: start;
+  gap: 20px;
+  margin-bottom: $spacing-unit;
+}
+
+.gallery-item {
+  margin: 0;
+  position: relative;      // positioning context for the caption overlay
+
+  a {
+    display: block;
+    line-height: 0;        // kill the inline-image descender gap
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 200 / 182;   // cells scale proportionally below $on-palm
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Caption sits over the image and only appears on hover — or on keyboard
+     focus, so it is reachable without a pointer. It stays in the DOM either
+     way, so screen readers still announce it. */
+  figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8px 10px;
+    background-color: rgba(17, 17, 17, 0.78);
+    color: #fdfdfd;
+    font-family: $heading-font-family;
+    font-size: 13px;
+    line-height: 1.3;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+  }
+
+  a:hover figcaption,
+  a:focus figcaption,
+  a:focus-visible figcaption {
+    opacity: 1;
+  }
+}
+
+.gallery-date {
+  display: block;
+  color: rgba(253, 253, 253, 0.7);
+}
+
+.gallery-empty {
+  color: $grey-color;
 }
 
 @include media-query($on-palm) {
@@ -223,5 +388,17 @@ samp {
     .column + .column { margin-top: $spacing-unit; }
   }
 
-  .notebook-list .post-meta { display: block; }
+  .notebook-list .post-meta,
+  .talk-list .post-meta,
+  .race-list .post-meta,
+  .project-list .post-meta { display: block; }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+  }
+
+  .talk-list .talk-venue,
+  .race-list .race-meta,
+  .project-list .project-meta { margin-left: 0; }
 }

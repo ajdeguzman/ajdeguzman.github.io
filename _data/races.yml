@@ -1,0 +1,67 @@
+# Races, one entry each. races.md groups them by year and renders them in the
+# same dated-list style as the notebook and talks pages.
+#
+#   date     : real date (YYYY-MM-DD) — used for both display and ordering
+#   name     : race name
+#   url      : optional — Strava activity or result page
+#   distance : e.g. 21k
+#   location : where it was run
+#   time     : optional finish time
+#   upcoming : set true for a race not yet run; it moves to the top section
+
+- { date: 2025-10-26, name: "Clark City Marathon: 3rd Leg", url: "https://www.strava.com/activities/16256250720", distance: 21k, location: "Filinvest Mimosa+ Events Ground, Clark, Pampanga" }
+- { date: 2025-08-16, name: "Race for Life 2025: Takbo para sa Pangarap", url: "http://strava.com/activities/15472412107", distance: 5k, location: "Lingayen, Pangasinan" }
+- { date: 2025-07-06, name: "Nueva Ecija Marathon 2025", url: "https://www.strava.com/activities/15019529611", distance: 21k, location: "Guimba, Nueva Ecija" }
+- { date: 2025-05-11, name: "Pinoy Fitness: Mother's Day Virtual Run 2025", url: "https://www.strava.com/activities/14440396287", distance: 21k, location: "Calasiao-Sta Barbara-Calasiao" }
+- { date: 2025-04-05, name: "Citigym Happy Run 2025", url: "https://www.strava.com/activities/14091602387", distance: 12k, location: "Lahug, Cebu City" }
+- { date: 2025-03-16, name: "Pinoy Fitness: Girl Power Virtual Run", url: "https://www.strava.com/activities/13893268053", distance: 25k, location: "Calasiao-Malasiqui-San Carlos-Calasiao, Pangasinan" }
+- { date: 2025-02-22, name: "Lingayen Gulf Run", url: "https://www.strava.com/activities/13690895157", distance: 21k, location: "Lingayen, Pangasinan" }
+
+- { date: 2024-11-09, name: "Brooks: Run Happy with CSI (Dagupan City)", url: "https://www.strava.com/activities/12871969762", distance: 10k, location: "Dagupan City, Pangasinan" }
+- { date: 2024-09-22, name: "Race4Water Virtual Run", url: "https://www.strava.com/activities/12470785798", distance: 21k, location: "Calasiao-Malasiqui-San Carlos-Calasiao" }
+- { date: 2024-09-08, name: "Pampanga Marathon 2024", url: "https://www.strava.com/activities/12355375455", distance: 21k, location: "Clark Parade Grounds, Clark City, Pampanga" }
+- { date: 2024-04-07, name: "Decathlon Half-Marathon 2024", url: "https://www.strava.com/activities/12099066973", distance: 21k, location: "Clark Parade Grounds, Clark City, Pampanga" }
+
+- { date: 2022-12-11, name: "Puto Calasiao Run 2022", url: "https://www.strava.com/activities/8233438322", distance: 5k, location: "Municipality of Calasiao" }
+- { date: 2022-08-13, name: "Calasiao SK Fun Run 2022", url: "https://www.strava.com/activities/7629929846", distance: 5k, location: "Municipality of Calasiao" }
+
+- { date: 2019-07-07, name: "BPO Olympics 2019", distance: 5k, location: "Timberland Heights" }
+- { date: 2019-05-18, name: "Accenture Run & Rock 2019", distance: 8k, location: "Arcovia City, Pasig", time: "01:06:41" }
+- { date: 2019-03-24, name: "Sandugo Road to Trail Challenge 2019", distance: 15k, location: "Eastridge, Binangonan, Rizal", time: "01:55:27" }
+- { date: 2019-03-10, name: "Cordillera Mountain Ultramarathon 2019", distance: 50k, location: "Tinongdan, Itogon, Benguet", time: "13:43:06" }
+- { date: 2019-02-03, name: "Bravehearts Trail Run", distance: 12k, location: "Mt. Mapalad, San Andres, Tanay, Rizal", time: "02:11:08" }
+
+- { date: 2018-12-16, name: "Conquer Rush 21k Challenge Windmill Fan Run 2018", distance: 21k, location: "Pillila, Rizal" }
+- { date: 2018-11-18, name: "Pinoy Fitness 21k Challenge 2018", distance: 21k, location: "SM By The Bay, Mall of Asia", time: "02:29:44" }
+- { date: 2018-07-16, name: "42nd Milo Marathon 2018", distance: 21k, location: "Urdaneta City, Pangasinan", time: "02:28:39" }
+- { date: 2018-07-01, name: "Soleus Cross Country Challenge 2018", distance: 21k, location: "Pintong Bukawe, San Mateo, Rizal", time: "05:18:39" }
+- { date: 2018-06-23, name: "Accenture Run & Rock 2018", distance: 8k, location: "ArcoVia City, Pasig City", time: "00:52:04" }
+
+- { date: 2017-09-10, name: "Cardimax Clark Ultramarathon 2017", distance: 50k, location: "Clark City, Pampanga", time: "09:12:46" }
+- { date: 2017-08-20, name: "Pinoy Fitness Kasama Run 2017", distance: 16k, location: "SM By The Bay, Mall of Asia, Pasay City", time: "02:09:59" }
+- { date: 2017-07-16, name: "41st Milo Marathon 2017", distance: 21k, location: "Urdaneta City, Pangasinan", time: "02:26:55" }
+- { date: 2017-06-24, name: "Accenture Run & Rock 2017", distance: 8k, location: "McKinley West, Taguig City", time: "54:47:05" }
+- { date: 2017-03-26, name: "Pinoy Fitness Sub 1 10k Challenge", distance: 10k, location: "SM By The Bay, Mall of Asia", time: "00:54:18" }
+- { date: 2017-02-26, name: "Tagaytay to Maragondon 50k 2017 (2-Man Relay)", distance: 50k, location: "Tagaytay City to Cavite City", time: "06:10:32" }
+
+- { date: 2016-07-31, name: "40th Milo Marathon 2016", distance: 21k, location: "SM By The Bay, Mall of Asia", time: "02:17:37" }
+- { date: 2016-06-05, name: "Run United 2 2016", distance: 32k, location: "SM By The Bay, Mall of Asia", time: "04:38:39" }
+- { date: 2016-05-29, name: "Financial Fitness Run 2016", distance: 21k, location: "Bonifacio Global City, Taguig City", time: "02:13:10" }
+- { date: 2016-04-17, name: "Natgeo Earth Day Run 2016", distance: 21k, location: "McKinley West, Taguig City", time: "02:19:59" }
+- { date: 2016-02-21, name: "The Bull Runner Dream Marathon 2016", distance: 42k, location: "Nuvali, Sta. Rosa, Laguna", time: "05:22:06" }
+- { date: 2016-02-07, name: "Condura Skyway Marathon (Run for a Hero) 2016", distance: 21k, location: "Filinvest City, Alabang" }
+
+- { date: 2015-11-22, name: "Gatorade Run 2015", distance: 22k, location: "SM By The Bay, Mall of Asia", time: "02:28:06" }
+- { date: 2015-11-15, name: "Greenfield City Run 2015", distance: 21k, location: "Greenfield City, Sta Rosa, Laguna", time: "02:13:09" }
+- { date: 2015-11-08, name: "New Balance Power Run 2015", distance: 25k, location: "Vista City Daang Hari, Cavite City", time: "02:38:45" }
+- { date: 2015-10-04, name: "Run United Philippine Marathon 2015 (RUPM)", url: "https://www.pinoyfitness.com/2015/10/run-united-philippine-marathon-rupm-2015-results-and-photos/", distance: 21k, location: "SM By The Bay, Mall of Asia", time: "02:28:41" }
+- { date: 2015-09-13, name: "Subaru Marathon 2015", url: "https://www.pinoyfitness.com/2015/07/subaru-marathon-september-13-2015/", distance: 21k, location: "SM By The Bay, Mall of Asia", time: "02:24:10" }
+- { date: 2015-07-26, name: "39th Milo Marathon 2015", distance: 5k, location: "SM By The Bay, Mall of Asia", time: "00:42:59" }
+- { date: 2015-07-12, name: "Takbo.PH Runfest", distance: 10k, location: "Bonifacio Global City, Taguig City", time: "01:08:31" }
+- { date: 2015-06-21, name: "World Vision Run 2015", distance: 10k, location: "SM By The Bay, Mall of Asia", time: "01:03:21" }
+- { date: 2015-06-07, name: "Run United 2 2015", distance: 10k, location: "SM By The Bay, Mall of Asia", time: "01:05:22" }
+
+- { date: 2013-11-30, name: "Race for Life (The Buddy Fun Run)", distance: 5k, location: "Robinsons Place, Calasiao, Pangasinan" }
+- { date: 2013-02-24, name: "Red Cross Million Volunteer Run", distance: 3k, location: "SM Rosales, Pangasinan" }
+
+- { date: 2012-07-14, name: "UCU Fun Run", distance: 5k, location: "Urdaneta City University, Pangasinan" }
