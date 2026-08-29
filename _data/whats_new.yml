@@ -1,0 +1,17 @@
+# Short dated updates shown in the "What's new?" column on the home page.
+# Newest first; `text` is rendered as Markdown. Only the first 5 are shown.
+
+- date: Aug 2026
+  text: >-
+    Spoke at [PSITE Region 1](https://www.facebook.com/share/p/19MpE2EKij/) on
+    staying in charge as AI reshapes software development.
+
+- date: Apr 2025
+  text: >-
+    Talked about Anypoint Code Builder at
+    [MuleSoft Connect in Cebu](https://meetups.mulesoft.com/events/details/mulesoft-cebu-presents-mulesoft-connect-in-cebu-integrate-innovate-elevate/).
+
+- date: Sep 2024
+  text: >-
+    Joined [MuleCasts](https://www.facebook.com/share/p/18LGhWz54T/) to talk
+    about launching a tech career with MuleSoft.

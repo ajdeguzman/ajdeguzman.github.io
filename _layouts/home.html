@@ -9,26 +9,63 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+  {%- assign social = site.minima.social_links -%}
+  <p class="home-social">
+    {%- if social.github -%}
+      <a href="https://github.com/{{ social.github | cgi_escape | escape }}"><svg class="svg-icon grey" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg><span>GitHub</span></a>
+    {%- endif -%}
+    {%- if social.linkedin -%}
+      <a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}"><svg class="svg-icon grey" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg><span>LinkedIn</span></a>
+    {%- endif -%}
+    {%- if social.strava -%}
+      <a href="https://strava.com/athletes/{{ social.strava | escape }}"><svg class="svg-icon grey" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#strava' | relative_url }}"></use></svg><span>Strava</span></a>
+    {%- endif -%}
+    <a href="{{ "/feed.xml" | relative_url }}"><svg class="svg-icon grey" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>RSS</span></a>
+  </p>
+
+  <hr>
+
+  <div class="home-sections">
+    <div class="column">
+      <h2 class="section-heading">Recent posts</h2>
+
+      {%- if site.posts.size > 0 -%}
+        <ul class="post-list">
+          {%- for post in site.posts limit: 5 -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">
+              {{- post.date | date: date_format -}}
+              {%- if post.categories.size > 0 %} &verbar; {{ post.categories | first | capitalize }}{% endif -%}
+            </span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h3>
+          </li>
+          {%- endfor -%}
+        </ul>
+
+        {%- if site.posts.size > 5 -%}
+          <p><a href="{{ "/notebook/" | relative_url }}">All posts &rarr;</a></p>
         {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+      {%- else -%}
+        <p>No posts yet.</p>
+      {%- endif -%}
+    </div>
 
-    <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
-  {%- endif -%}
+    <div class="column">
+      <h2 class="section-heading">What's new?</h2>
 
+      {%- if site.data.whats_new -%}
+        <ul class="whats-new">
+          {%- for item in site.data.whats_new limit: 5 -%}
+          <li>
+            <span class="post-meta">{{ item.date }}</span>
+            {{ item.text | markdownify }}
+          </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    </div>
+  </div>
 </div>

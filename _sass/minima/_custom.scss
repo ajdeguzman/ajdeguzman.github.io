@@ -1,0 +1,227 @@
+/**
+ * Typography assignment
+ * -----------------------------------------------------------------------
+ * Body copy   -> Charter (serif), set on `body` by minima's _base.scss.
+ * Headings/UI -> Inter, applied below.
+ * Code        -> monospace stack; minima's pre/code set no family at all.
+ */
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.site-nav,
+.page-heading,
+.section-heading,
+.post-title,
+.post-meta,
+.home-social,
+.footer-heading {
+  font-family: $heading-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.011em;   // Inter benefits from a touch of negative tracking
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: $code-font-family;
+}
+
+/**
+ * Site identity — profile image beside title, tagline and inline nav.
+ * Replaces minima's default title-left / nav-right header.
+ */
+
+/* Undo minima's floated title / absolutely-positioned nav. _custom.scss is
+   imported last, so these plain selectors override _layout.scss at equal
+   specificity — including the rules minima puts inside media queries. */
+.site-header {
+  border-top: none;
+  min-height: auto;
+  padding: $spacing-unit 0;
+
+  /* minima sets line-height to ~3.8x the font size here, to vertically centre
+     the title in its single-row header. Our identity block stacks instead, so
+     that inherited value shows up as huge gaps between the title, tagline and
+     email. Back to normal rhythm. */
+  line-height: $base-line-height;
+}
+
+.site-title {
+  float: none;
+}
+
+.site-nav {
+  position: static;
+  float: none;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  line-height: $base-line-height;
+
+  .page-link {
+    display: inline;
+    padding: 0;
+    margin-left: 0;
+  }
+}
+
+.site-identity {
+  display: flex;
+  align-items: center;
+
+  > a {
+    flex-shrink: 0;
+    margin-right: $spacing-unit;
+  }
+
+  img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+  }
+}
+
+.site-identity-text {
+  min-width: 0;
+
+  p {
+    margin-bottom: 0;
+    font-size: $small-font-size;
+    color: $grey-color-dark;
+  }
+}
+
+.site-title {
+  @include relative-font-size(1.7);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 0.15em;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+.site-nav {
+  margin-top: 0.4em;
+  color: $grey-color;
+  font-size: $small-font-size;
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+  }
+}
+
+/**
+ * Home — intro, social row, then side-by-side sections.
+ */
+.home-social {
+  margin-top: $spacing-unit / 2;
+
+  a {
+    display: inline-block;
+    margin-right: $spacing-unit / 2;
+    white-space: nowrap;
+    color: $grey-color-dark;
+
+    &:hover { color: $brand-color; text-decoration: none; }
+    &:hover .svg-icon { fill: currentColor; }
+  }
+
+  .svg-icon { margin-right: 2px; }
+}
+
+.home-sections {
+  display: flex;
+  gap: $spacing-unit;
+
+  .column {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+}
+
+.section-heading {
+  @include relative-font-size(1.25);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.home-sections .post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit / 1.5;
+  }
+
+  h3 {
+    @include relative-font-size(1.1);
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+}
+
+/**
+ * What's new — dated updates, no bullets.
+ */
+.whats-new {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  p { margin-bottom: 0; }
+}
+
+/**
+ * Notebook — reverse-chronological index of every post.
+ */
+.notebook-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit / 3;
+  }
+
+  .post-meta {
+    display: inline-block;
+    min-width: 6.5em;
+  }
+
+  .featured {
+    color: $orange-color;
+  }
+}
+
+@include media-query($on-palm) {
+  .site-identity {
+    flex-direction: column;
+    align-items: flex-start;
+
+    > a {
+      margin-right: 0;
+      margin-bottom: $spacing-unit / 2;
+    }
+
+    img { width: 100px; height: 100px; }
+  }
+
+  .home-sections {
+    display: block;
+
+    .column + .column { margin-top: $spacing-unit; }
+  }
+
+  .notebook-list .post-meta { display: block; }
+}

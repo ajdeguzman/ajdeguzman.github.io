@@ -2,8 +2,17 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
+// Body: Charter (Matthew Carter's transitional serif). It ships with macOS/iOS
+// under a licence that forbids webfont self-hosting, so it is named here as a
+// system face only — installed users get it, everyone else falls through.
+$base-font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, "Times New Roman", Times, serif !default;
+
+// Headings and UI chrome.
+$heading-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+// Code.
+$code-font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
@@ -21,7 +30,7 @@ $orange-color:     #f66a0a !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    900px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -52,5 +61,6 @@ $on-large:         $on-laptop !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/syntax-highlighting",
+  "minima/custom"
 ;

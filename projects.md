@@ -4,21 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-See some of my ~~garbage~~ simple projects below:
-
-- Area 52 App [WIP] - 
-<br> Authors: Aj De Guzman, Marvin Trecenio
-<br> (2019, Flutter, Dart)
+Here are the projects I have worked on:
 
 - [CCS Talk!](https://talkucu-ccs.org){:target="_blank"} ( A forum site for the UCU College of Computer Studies)
 <br> Authors: Aj De Guzman  
 <br> (2019, Discourse)
 
-- [UCU College of Computer Studies Public Website](https://ucu-ccs.org){:target="_blank"} ([WIP] A public website for the UCU College of Computer Studies)
-<br> Authors: Aj De Guzman  
-<br> (2019, Jekyll, Liquid)
-
-- [Urdaneta City University Website Revamped](https://ajdeguzman.github.com/ucu){:target="_blank"} ([WIP] A version 2 of the public website of the Urdaneta City University, Urdaneta City, Pangasinan)
+- [Urdaneta City University Website Revamped](https://ajdeguzman.github.com/ucu){:target="_blank"} (A version 2 of the public website of the Urdaneta City University, Urdaneta City, Pangasinan)
 <br> Authors: Aj De Guzman  
 <br> (2019, Jekyll, VueJs)
 
@@ -26,7 +18,7 @@ See some of my ~~garbage~~ simple projects below:
 <br> Authors: Aj De Guzman, Marvin Trecenio, Byron Mairina, Justin Flores
 <br> (2016, Android/Java, Nutritionix API, Clarifai, Slim Framework)
 
-- [Urdaneta City University Website](https://ucu.edu.ph){:target="_blank"} (A public website of the Urdaneta City University, Urdaneta City, Pangasinan)
+- [Urdaneta City University Website](https://ucu.edu.ph){:target="_blank"} (A public website of the Urdaneta City University)
 <br> Authors: Aj De Guzman
 <br> (2015, Wordpress Codex, MySQL)
 
