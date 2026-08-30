@@ -30,11 +30,11 @@ Then I wrote this.
 
 Three things will show up here.
 
-**Work.** What I'm building, what broke, what I'd do differently. The lessons part of the original 2019 plan, finally.
+__Building__. What I'm working on, what broke, what I'd do differently. The lessons part of the original 2019 plan, finally.
 
-**Running.** Training, races, the slow project of getting better at something measured in seconds. I've been running for years and writing about it for none of them.
+__Studying__. Grad School as it happens. Coursework, research, papers I'm trying to understand, and the logistics of all of it while everything else keeps going.
 
-**Grad school.** The MSCS journey as it happens. Coursework, papers I'm trying to understand, and the logistics of studying while everything else keeps going.
+__Moving__. Running and the places I end up. The slow project of getting better at something measured in seconds, plus whatever happens away from a desk.
 
 They don't obviously belong together, but from where I'm standing they're the same thing. Showing up at something hard, consistently, and writing down what I find.
 
