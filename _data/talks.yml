@@ -11,19 +11,19 @@
 - date: 14 Aug 2026
   title: "Human in the Lead: Staying in charge as AI reshapes Software Development"
   event: Philippine Society of Information Technology Educators (PSITE) Region 1
-  event_url: https://www.facebook.com/share/p/19MpE2EKij/
+  url: https://www.facebook.com/share/p/19MpE2EKij/
   location: Zoom
 
 - date: 04 Apr 2025
   title: "Anypoint Code Builder: The Future of MuleSoft Development"
   event: "MuleSoft Connect in Cebu: Integrate, Innovate, Elevate!"
-  event_url: https://meetups.mulesoft.com/events/details/mulesoft-cebu-presents-mulesoft-connect-in-cebu-integrate-innovate-elevate/
+  url: https://meetups.mulesoft.com/events/details/mulesoft-cebu-presents-mulesoft-connect-in-cebu-integrate-innovate-elevate/
   location: Cebu City, Philippines
 
 - date: 28 Sep 2024
   title: "Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth"
   event: MuleCasts
-  event_url: https://www.facebook.com/share/p/18LGhWz54T/
+  url: https://www.facebook.com/share/p/18LGhWz54T/
   location: Urdaneta, Pangasinan, Philippines
 
 - date: 29 Jun 2023
@@ -34,7 +34,7 @@
 
 - date: 25 Jan 2023
   title: Connecting Anything with MuleSoft
-  url: /assets/Connecting%20Anything%20with%20MuleSoft.pdf
+  url: https://www.facebook.com/share/p/1EApa2ZL8q/
   event: "Hulmaan at Punlaan: Developing a Profession-Ready Letranites"
   location: Colegio de San Juan de Letran, Manaoag, Pangasinan
 
@@ -49,12 +49,6 @@
   url: https://ajdeguzman.github.io/rpa/#/
   event: Industry Exposure Seminar 2019 (Day 1)
   location: Urdaneta City University, Pangasinan
-
-- date: 13 Feb 2019
-  title: "Static Website Generator: Creating your first website using Jekyll and GitHub Pages"
-  url: https://ajdeguzman.github.io/jekyll-brownbag/#/
-  event: Accenture PH project-wide brownbag
-  location: Manila, Philippines
 
 - date: 24 May 2018
   title: Writing Good Résumé

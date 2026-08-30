@@ -12,13 +12,13 @@ Integration, MuleSoft, AI, and building a career in tech.
   <li>
     <span class="post-meta">{{ talk.date }}</span> &raquo;
     {%- if talk.url %}
-      <a href="{{ talk.url | relative_url }}">{{ talk.title }}</a>
+      <a href="{{ talk.url | relative_url }}" target="_blank" rel="noopener">{{ talk.title }}</a>
     {%- else %}
       {{ talk.title }}
     {%- endif %}
     <span class="talk-venue">
       {%- if talk.event_url -%}
-        <a href="{{ talk.event_url }}">{{ talk.event }}</a>
+        <a href="{{ talk.event_url }}" target="_blank" rel="noopener">{{ talk.event }}</a>
       {%- else -%}
         {{ talk.event }}
       {%- endif -%}
