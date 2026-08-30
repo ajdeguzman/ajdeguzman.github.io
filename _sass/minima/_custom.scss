@@ -400,9 +400,7 @@ a:visited {
 }
 
 /**
- * Comments (Utterances). The widget injects its own iframe with class
- * .utterances; it defaults to max-width 760px, which already sits inside our
- * content column.
+ * Comments (giscus). The widget injects a .giscus container holding an iframe.
  */
 .comments {
   margin-top: $spacing-unit * 1.5;
@@ -415,7 +413,8 @@ a:visited {
   margin-bottom: $spacing-unit / 2;
 }
 
-.utterances {
+.giscus,
+.giscus-frame {
   max-width: 100%;
 }
 

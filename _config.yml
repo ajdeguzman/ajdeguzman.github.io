@@ -70,17 +70,31 @@ minima:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Comments, via Utterances (https://utteranc.es/) — each article's thread is a
-# GitHub Issue on this repo. Two one-time prerequisites: install the utterances
-# GitHub App on the repo, and keep the repo public with Issues enabled.
+# Comments, via giscus (https://giscus.app/) — each article's thread is a
+# GitHub Discussion on this repo.
+#
+# Three one-time prerequisites:
+#   1. Discussions enabled: repo Settings > General > Features > Discussions
+#   2. the giscus GitHub App installed: https://github.com/apps/giscus
+#   3. the repo public (it is)
+#
+# repo_id is this repo's GraphQL node ID and is already correct. category and
+# category_id come from the configurator at https://giscus.app once Discussions
+# is on — paste them below and comments go live. The widget stays hidden until
+# both are filled in.
 #
 # Posts get comments automatically. Pages opt in with `comments: true` in their
 # front matter; any post or page can opt out with `comments: false`.
-utterances:
+giscus:
   repo: ajdeguzman/ajdeguzman.github.io
-  issue_term: pathname      # thread is matched to the page's URL path
-  label: comment            # label applied to the created issues
-  theme: github-light       # the site has no dark mode
+  repo_id: MDEwOlJlcG9zaXRvcnkxNjgzMDIzMDc=
+  category: Announcements       # the Discussions category threads are created in
+  category_id: DIC_kwDOCggW484DEfpd
+  mapping: pathname             # thread matched to the page's URL path
+  strict: "0"                   # from the giscus configurator
+  reactions: "1"
+  input_position: bottom
+  theme: light
 
 # Words left lowercase when the gallery Title Cases a filename (unless they
 # land first or last). Edit to taste.
