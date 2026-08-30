@@ -3,13 +3,16 @@
 #
 #   date   : display string, e.g. "14 Aug 2026" (or just a year if that's all you have)
 #   title  : what you actually talked about
-#   url    : optional — slides, recording, or write-up
+#   url    : optional — event page, recording, or write-up
+#   pdf    : optional — slide deck in assets/talks/; shows a PDF icon beside
+#            the title. See the README in that folder for naming.
 #   event  : the event or host
 #   event_url : optional link for the event
 #   location  : optional venue / city
 
 - date: 14 Aug 2026
   title: "Human in the Lead: Staying in charge as AI reshapes Software Development"
+  pdf: /assets/talks/2026-08-14-PSITE-human-in-the-lead-staying-in-charge.pdf
   event: Philippine Society of Information Technology Educators (PSITE) Region 1
   url: https://www.facebook.com/share/p/19MpE2EKij/
   location: Zoom
@@ -18,41 +21,46 @@
   title: "Anypoint Code Builder: The Future of MuleSoft Development"
   event: "MuleSoft Connect in Cebu: Integrate, Innovate, Elevate!"
   url: https://meetups.mulesoft.com/events/details/mulesoft-cebu-presents-mulesoft-connect-in-cebu-integrate-innovate-elevate/
+  pdf: /assets/talks/2025-04-04-anypoint-code-builder.pdf
   location: Cebu City, Philippines
 
 - date: 28 Sep 2024
   title: "Launching your Tech Career with MuleSoft: Skills, Opportunities and Growth"
   event: MuleCasts
+  pdf: /assets/talks/2024-09-28-launching-your-tech-career-mulesoft.pdf
   url: https://www.facebook.com/share/p/18LGhWz54T/
   location: Urdaneta, Pangasinan, Philippines
 
 - date: 29 Jun 2023
   title: Kickstarting Career in Tech
-  url: /assets/Kickstarting%20Career%20in%20Tech.pdf
+  pdf: /assets/talks/2023-06-29-kickstarting-career-in-tech.pdf
   event: Project FIIP 2023
+  url: https://www.facebook.com/share/p/1F8sDTBW7A/
   location: Urdaneta City University, Pangasinan
 
 - date: 25 Jan 2023
   title: Connecting Anything with MuleSoft
-  url: https://www.facebook.com/share/p/1EApa2ZL8q/
+  pdf: /assets/talks/2023-01-25-connecting-anything-with-mulesoft.pdf
+  url: https://www.facebook.com/share/p/19YPK3Ad48/
+  #url: https://www.facebook.com/share/p/1EApa2ZL8q/
   event: "Hulmaan at Punlaan: Developing a Profession-Ready Letranites"
   location: Colegio de San Juan de Letran, Manaoag, Pangasinan
 
 - date: 25 May 2019
   title: "Building Beautiful Native Apps with Flutter"
-  url: https://ajdeguzman.github.io/flutter-ccs/#/
+  pdf: https://ajdeguzman.github.io/flutter-ccs/#/
   event: Industry Exposure Seminar 2019 (Day 2)
   location: Urdaneta City University, Pangasinan
 
 - date: 25 May 2019
   title: "UiPath: An Introduction to Robotics Process Automation"
-  url: https://ajdeguzman.github.io/rpa/#/
+  pdf: https://ajdeguzman.github.io/rpa/#/
   event: Industry Exposure Seminar 2019 (Day 1)
   location: Urdaneta City University, Pangasinan
 
 - date: 24 May 2018
   title: Writing Good Résumé
-  url: /assets/Writing%20Good%20R%C3%A9sum%C3%A9.pdf
+  pdf: /assets/talks/2018-05-24-writing-good-resume.pdf
   event: Industry Exposure Seminar 2018
   location: Urdaneta City University, Pangasinan
 

@@ -100,3 +100,4 @@ exclude:
   - .bundle/
   - script/
   - assets/races/README.md   # notes for me, not a page (jekyll-readme-index would publish it)
+  - assets/talks/README.md

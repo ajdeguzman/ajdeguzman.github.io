@@ -248,6 +248,28 @@ a:visited {
     margin-bottom: $spacing-unit / 2;
   }
 
+  /* Slide-deck link: icon only, sitting just after the title. Red because
+     that's the colour people expect on a PDF; the icon inherits it through
+     fill: currentColor. */
+  .talk-pdf {
+    display: inline-block;
+    margin-left: 0.2em;
+    vertical-align: baseline;
+    color: $pdf-color;
+
+    .svg-icon {
+      width: 18px;
+      height: 18px;
+      padding: 0;
+      vertical-align: -3px;
+    }
+
+    &:hover {
+      color: darken($pdf-color, 10%);
+      text-decoration: none;
+    }
+  }
+
   .talk-venue {
     display: block;
     margin-left: 7.5em;

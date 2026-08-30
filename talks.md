@@ -16,6 +16,20 @@ Integration, MuleSoft, AI, and building a career in tech.
     {%- else %}
       {{ talk.title }}
     {%- endif %}
+    {%- if talk.pdf %}
+      {%- comment -%}
+        `pdf` holds either a local deck in assets/talks/ or an external slide
+        URL. Only the local ones get relative_url — running it over an absolute
+        URL would prepend the baseurl and break the link.
+      {%- endcomment -%}
+      {%- if talk.pdf contains "://" -%}
+        {%- assign slides_href = talk.pdf -%}
+      {%- else -%}
+        {%- assign slides_href = talk.pdf | relative_url -%}
+      {%- endif -%}
+      <a class="talk-pdf" href="{{ slides_href }}" target="_blank" rel="noopener"
+         title="Slides" aria-label="{{ talk.title | escape }} — slides"><svg class="svg-icon" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#pdf' | relative_url }}"></use></svg></a>
+    {%- endif %}
     <span class="talk-venue">
       {%- if talk.event_url -%}
         <a href="{{ talk.event_url }}" target="_blank" rel="noopener">{{ talk.event }}</a>
