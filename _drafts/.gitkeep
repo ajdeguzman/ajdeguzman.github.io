@@ -1,0 +1,5 @@
+Placeholder so git tracks this directory while it's empty.
+
+Drafts live here: no date in the filename, not built unless you pass --drafts,
+and never published by GitHub Pages even if committed. Dotfiles are ignored by
+Jekyll, so this one is never rendered.
