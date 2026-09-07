@@ -2,7 +2,7 @@
 layout: post
 title:  "On Starting My Machine Learning Journey"
 date:   2026-09-07 17:30:00 +0800
-categories: life
+categories: notebook
 # featured: true      # uncomment to mark this with a ★ in the list
 # comments: false     # uncomment to hide the comment thread on this post
 ---
