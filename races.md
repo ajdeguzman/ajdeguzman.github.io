@@ -15,7 +15,7 @@ permalink: /races/
 
 Road, trail and ultra races — {{ done.size }} of them since
 {{ done.last.date | date: "%Y" }}, about {{ total_km }}km of racing all told.
-There are [photos]({{ "/races/gallery/" | relative_url }}) too.
+<br> There are 📸 [photos]({{ "/races/gallery/" | relative_url }}) too.
 
 {% if upcoming.size > 0 %}
 ## Upcoming
