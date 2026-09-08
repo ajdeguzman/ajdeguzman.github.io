@@ -21,7 +21,7 @@ If you have spent any time near machine learning, you have run into Andrew Ng's 
 
 Computer science is math. Machine learning is math with extra steps. We were warned about this early on, back when we were still deciding between computer science and IT: if you go this route, expect math to follow you the whole way. Linear algebra especially is not optional in machine learning, so I need to get genuinely comfortable with it, not just familiar.
 
-I had a head start here. During my second trimester, a course called Math for Data Science walked us through vectors, matrices, PCA, eigenvalues, and eigenvectors. It was not deep enough to call me confident, but it gave me something to build on instead of starting from zero.
+I had a head start here. During my second trimester, a course called Math for Data Science (SC07) walked us through vectors, matrices, PCA, eigenvalues, and eigenvectors. It was not deep enough to call me confident, but it gave me something to build on instead of starting from zero.
 
 ## On Studying Python and Why
 
@@ -40,6 +40,5 @@ This is the part I still need to work out for myself, not just accept as a given
 - [3Blue1Brown](https://www.youtube.com/c/3blue1brown) for building visual intuition around the math
 - [StatQuest](https://www.youtube.com/@statquest) for breaking down statistics and ML concepts in plain language
 
----
 
 This is not a fixed plan. It's a starting point, built from one course that only scratched the surface and a curiosity that stuck around after it ended. I'll document what I learn here as I go, mistakes included. If you're further along this path than I am, I'd love to hear what worked for you. Drop a recommendation, a resource, or a warning in the comments.
