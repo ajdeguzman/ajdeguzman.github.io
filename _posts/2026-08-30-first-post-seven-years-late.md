@@ -2,6 +2,7 @@
 layout: post
 title:  "First Post, Seven Years Late"
 date:   2026-08-30 09:00:00 +0800
+author: Aj De Guzman
 categories: life
 # featured: true      # uncomment to mark this with a ★ in the list
 # comments: false     # uncomment to hide the comment thread on this post

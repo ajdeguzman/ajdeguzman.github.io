@@ -203,6 +203,17 @@ a:visited {
 }
 
 /**
+ * Articles — newspaper-style opening initial.
+ */
+.post.h-entry .post-content > p:first-of-type::first-letter {
+  float: left;
+  margin: -0.05em 0.12em 0 0;
+  color: $brand-color;
+  font-size: 4em;
+  line-height: 0.72;
+}
+
+/**
  * What's new — dated updates, no bullets.
  */
 .whats-new {
