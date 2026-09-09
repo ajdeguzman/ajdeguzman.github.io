@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Hi there! I'm Aj. I'm a Software Engineer by profession and a runner currently living in the Philippines.
-<br>
-This site is all about my talks, software development, running marathons/ultramarathons, trail runnings and other outdoor activities. I'll be sharing all my thoughts, pieces of advice and works here.
-<br>
+Hi there! I’m Aj, a software engineer, runner, and lifelong learner based in the Philippines.
+
+This is where I share thoughts and experiences from the intersection of code, running, learning, and life. You’ll find posts about software development, talks and projects, marathons and ultramarathons, trail running, outdoor adventures, and the lessons I pick up along the way.
+
+Consider this a collection of things I’ve learned, built, experienced, and found worth sharing.
+
+
 You may contact me below:
-<br>
-Email: aljohndeguzman [at] gmail [dot] com
+
+__Email: aljohndeguzman [at] gmail [dot] com__
 
 

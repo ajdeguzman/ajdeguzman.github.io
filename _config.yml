@@ -16,7 +16,7 @@
 title: Aj De Guzman
 email: aljohndeguzman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Thoughts on everything software development, running, environment and life.
+  Thoughts from the intersection of code, running, learning, and life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 tagline: Integration Developer, J4RVIS | MSc CS Student, University of the Cordilleras
