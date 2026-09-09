@@ -5,15 +5,19 @@
 
   <body>
 
-    {%- include header.html -%}
+    {%- if site.maintenance -%}
+      {%- include maintenance.html -%}
+    {%- else -%}
+      {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
 
-    {%- include footer.html -%}
+      {%- include footer.html -%}
+    {%- endif -%}
 
   </body>
 

@@ -429,6 +429,62 @@ a:visited {
   max-width: 100%;
 }
 
+/**
+ * Maintenance mode — shown site-wide when `maintenance: true` is set in
+ * _config.yml.
+ */
+.maintenance-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: $spacing-unit;
+  background:
+    linear-gradient(180deg, rgba(44, 103, 35, 0.07), rgba(253, 253, 253, 0) 38%),
+    $background-color;
+}
+
+.maintenance-panel {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+
+  h1 {
+    @include relative-font-size(2.3);
+    margin-bottom: $spacing-unit / 3;
+  }
+
+  p {
+    @include relative-font-size(1.1);
+    color: $grey-color-dark;
+  }
+}
+
+.maintenance-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: $spacing-unit;
+  font-family: $heading-font-family;
+  font-weight: 700;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+
+  &:hover {
+    color: $brand-color;
+    text-decoration: none;
+  }
+
+  img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
 @include media-query($on-palm) {
   .site-identity {
     flex-direction: column;
@@ -468,4 +524,13 @@ a:visited {
   .talk-list .talk-venue,
   .race-list .race-meta,
   .project-list .project-meta { margin-left: 0; }
+
+  .maintenance-page {
+    align-items: flex-start;
+    padding: $spacing-unit / 1.5;
+  }
+
+  .maintenance-panel h1 {
+    @include relative-font-size(1.8);
+  }
 }

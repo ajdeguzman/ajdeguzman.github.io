@@ -1,0 +1,13 @@
+<main class="maintenance-page" aria-label="Maintenance notice">
+  <div class="maintenance-panel">
+    <a class="maintenance-brand" href="{{ "/" | relative_url }}" aria-label="{{ site.title | escape }}">
+      {%- if site.profile_image -%}
+        <img src="{{ site.profile_image | relative_url }}" alt="">
+      {%- endif -%}
+      <span>{{ site.title | escape }}</span>
+    </a>
+
+    <h1>{{ site.maintenance_title | default: "Site maintenance" | escape }}</h1>
+    <p>{{ site.maintenance_message | default: "I'm making a few updates. Please check back soon." | escape }}</p>
+  </div>
+</main>

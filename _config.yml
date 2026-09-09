@@ -22,6 +22,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 tagline: Integration Developer, J4RVIS | MSc CS Student, University of the Cordilleras
 profile_image: /assets/profile-dithered.png
 
+# Set to true to show a site-wide maintenance page instead of normal content.
+maintenance: false
+maintenance_title: Site maintenance
+maintenance_message: I'm making a few updates. Please check back soon.
+
 # Order of the links in the site header. Only pages listed here appear.
 header_pages:
   - about.md
