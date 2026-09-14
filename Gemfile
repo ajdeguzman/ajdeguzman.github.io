@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-# This site is built by GitHub Pages' classic build pipeline, which ignores
-# individual gem pins and uses the `github-pages` gem instead. Depending on
-# that gem here keeps local development on the exact same Jekyll, kramdown,
-# minima and plugin versions that GitHub actually deploys.
+# This site is built by the custom workflow in .github/workflows/pages.yml.
+# The workflow installs this bundle and builds with the versions locked in
+# Gemfile.lock. Keeping the `github-pages` gem here preserves compatibility
+# with GitHub Pages while giving local and CI builds the same dependencies.
 #
 # To see what those versions are: https://pages.github.com/versions/
 # To pull in GitHub's latest set:  bundle update github-pages
