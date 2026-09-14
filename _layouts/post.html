@@ -16,6 +16,12 @@ layout: default
       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author_name | escape }}</span></span>
       <span class="post-reading-meta">
         • {{ reading_time }} {% if reading_time == 1 %}min{% else %}mins{% endif %} read ({{ word_count }} {% if word_count == 1 %}word{% else %}words{% endif %})
+        {%- if page.comments != false and site.giscus.repo_id.size > 0 and site.giscus.category_id.size > 0 %}
+          <a class="comment-count" href="#comments" aria-label="0 comments" title="View comments">
+            <svg class="comment-count-icon" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#comment' | relative_url }}"></use></svg>
+            <span data-comment-count>0</span>
+          </a>
+        {%- endif %}
       </span>
     </p>
   </header>

@@ -20,8 +20,23 @@
   {%- assign giscus_ready = true -%}
 {%- endif -%}
 {%- if giscus_ready and page.comments != false -%}
-<section class="comments" aria-label="Comments">
+<section class="comments" id="comments" aria-label="Comments">
   <h2 class="comments-heading">Comments</h2>
+
+  <script>
+    window.addEventListener('message', function (event) {
+      if (event.origin !== 'https://giscus.app') return;
+      if (!event.data || typeof event.data !== 'object' || !event.data.giscus) return;
+      if (!event.data.giscus.discussion) return;
+
+      var counter = document.querySelector('[data-comment-count]');
+      if (!counter) return;
+
+      var count = event.data.giscus.discussion.totalCommentCount;
+      counter.textContent = count;
+      counter.parentElement.setAttribute('aria-label', count + (count === 1 ? ' comment' : ' comments'));
+    });
+  </script>
 
   <script src="https://giscus.app/client.js"
           data-repo="{{ site.giscus.repo }}"
@@ -31,11 +46,10 @@
           data-mapping="{{ site.giscus.mapping | default: 'pathname' }}"
           data-strict="{{ site.giscus.strict | default: '0' }}"
           data-reactions-enabled="{{ site.giscus.reactions | default: '1' }}"
-          data-emit-metadata="0"
+          data-emit-metadata="1"
           data-input-position="{{ site.giscus.input_position | default: 'bottom' }}"
           data-theme="{{ site.giscus.theme | default: 'light' }}"
           data-lang="en"
-          data-loading="lazy"
           crossorigin="anonymous"
           async>
   </script>

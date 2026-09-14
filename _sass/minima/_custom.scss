@@ -424,6 +424,28 @@ a:visited {
   margin-bottom: $spacing-unit / 2;
 }
 
+.comment-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2em;
+  margin-left: 0.35em;
+  color: $grey-color;
+  text-decoration: none;
+  vertical-align: -0.1em;
+
+  &:visited { color: $grey-color; }
+  &:hover {
+    color: $brand-color;
+    text-decoration: none;
+  }
+}
+
+.comment-count-icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
 .giscus,
 .giscus-frame {
   max-width: 100%;
