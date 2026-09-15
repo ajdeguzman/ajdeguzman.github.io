@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+description: Software, integration, and technology projects built by Aj De Guzman.
 permalink: /projects/
 ---
 

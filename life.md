@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Life
+description: Personal notes from Aj De Guzman about travel, running, food, books, outdoor adventures, and life away from the keyboard.
 permalink: /life/
 ---
 

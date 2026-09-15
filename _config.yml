@@ -18,9 +18,21 @@ email: aljohndeguzman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Thoughts from the intersection of code, running, learning, and life.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ajdeguzman.github.io"
 tagline: Integration Developer, J4RVIS | MSc CS Student, University of the Cordilleras
 profile_image: /assets/profile-dithered.png
+
+# Identity metadata used by jekyll-seo-tag to connect the site and its author.
+author:
+  name: Aj De Guzman
+  url: https://ajdeguzman.github.io/about/
+
+social:
+  name: Aj De Guzman
+  links:
+    - https://github.com/ajdeguzman
+    - https://www.linkedin.com/in/aljohn-de-guzman-4b5b8257
+    - https://strava.com/athletes/ajdeguzman
 
 # Set to true to show a site-wide maintenance page instead of normal content.
 maintenance: false
@@ -47,6 +59,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 minima:
   social_links:

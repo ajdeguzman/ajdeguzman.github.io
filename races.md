@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Races
+description: Road, trail, marathon, and ultramarathon race history from runner Aj De Guzman.
 permalink: /races/
 ---
 

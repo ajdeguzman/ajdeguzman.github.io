@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Talks
+description: Talks by Aj De Guzman about integration, MuleSoft, artificial intelligence, software development, and technology careers.
 permalink: /talks/
 ---
 

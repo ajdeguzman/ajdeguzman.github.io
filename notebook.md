@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Notebook
+description: Technical notes from Aj De Guzman about software development, integration, machine learning, and computer science.
 permalink: /notebook/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: About Aj De Guzman, an integration developer, computer science student, runner, and lifelong learner in the Philippines.
 permalink: /about/
 ---
 
@@ -14,5 +15,4 @@ Consider this a collection of things I’ve learned, built, experienced, and fou
 You may contact me below:
 
 __Email: aljohndeguzman [at] gmail [dot] com__
-
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Gallery
+description: Race, trail, and outdoor photographs from Aj De Guzman's running adventures.
 permalink: /races/gallery/
 ---
 
