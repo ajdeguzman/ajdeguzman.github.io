@@ -88,31 +88,15 @@ minima:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Comments, via giscus (https://giscus.app/) — each article's thread is a
-# GitHub Discussion on this repo.
+# Comments, via Disqus (https://disqus.com/).
 #
-# Three one-time prerequisites:
-#   1. Discussions enabled: repo Settings > General > Features > Discussions
-#   2. the giscus GitHub App installed: https://github.com/apps/giscus
-#   3. the repo public (it is)
-#
-# repo_id is this repo's GraphQL node ID and is already correct. category and
-# category_id come from the configurator at https://giscus.app once Discussions
-# is on — paste them below and comments go live. The widget stays hidden until
-# both are filled in.
+# `shortname` is the unique website identifier shown in the Disqus admin panel
+# under Settings > General. Comments stay hidden when it is left blank.
 #
 # Posts get comments automatically. Pages opt in with `comments: true` in their
 # front matter; any post or page can opt out with `comments: false`.
-giscus:
-  repo: ajdeguzman/ajdeguzman.github.io
-  repo_id: MDEwOlJlcG9zaXRvcnkxNjgzMDIzMDc=
-  category: Announcements       # the Discussions category threads are created in
-  category_id: DIC_kwDOCggW484DEfpd
-  mapping: pathname             # thread matched to the page's URL path
-  strict: "0"                   # from the giscus configurator
-  reactions: "1"
-  input_position: bottom
-  theme: light
+disqus:
+  shortname: ajdeguzman
 
 # Words left lowercase when the gallery Title Cases a filename (unless they
 # land first or last). Edit to taste.

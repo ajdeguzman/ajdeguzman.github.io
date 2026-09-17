@@ -411,7 +411,7 @@ a:visited {
 }
 
 /**
- * Comments (giscus). The widget injects a .giscus container holding an iframe.
+ * Comments (Disqus).
  */
 .comments {
   margin-top: $spacing-unit * 1.5;
@@ -446,8 +446,7 @@ a:visited {
   fill: currentColor;
 }
 
-.giscus,
-.giscus-frame {
+#disqus_thread {
   max-width: 100%;
 }
 
