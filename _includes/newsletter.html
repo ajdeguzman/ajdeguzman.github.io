@@ -1,0 +1,22 @@
+<section class="newsletter-signup" aria-labelledby="newsletter-signup-title">
+  <div class="newsletter-signup-copy">
+    <h2 id="newsletter-signup-title">Get new posts by email</h2>
+    <p>Subscribe for an email whenever I publish something new. No spam, and you can unsubscribe anytime.</p>
+  </div>
+
+  <form class="newsletter-signup-form" action="https://api.follow.it/subscribe" method="post">
+    <label for="newsletter-email">Email address</label>
+    <div class="newsletter-signup-fields">
+      <input
+        id="newsletter-email"
+        name="email"
+        type="email"
+        inputmode="email"
+        autocomplete="email"
+        placeholder="you@example.com"
+        required
+      >
+      <button type="submit">Subscribe</button>
+    </div>
+  </form>
+</section>
