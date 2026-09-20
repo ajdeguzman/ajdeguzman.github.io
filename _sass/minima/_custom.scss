@@ -213,6 +213,19 @@ a:visited {
   line-height: 0.72;
 }
 
+.post-content .image-credit {
+  margin-top: -$spacing-unit / 2;
+  color: $grey-color;
+  font-family: $heading-font-family;
+  font-size: 0.75rem;
+  text-align: right;
+
+  a,
+  a:visited {
+    color: inherit;
+  }
+}
+
 /**
  * What's new — dated updates, no bullets.
  */
