@@ -227,6 +227,78 @@ a:visited {
 }
 
 /**
+ * Topics — clickable post tags and the grouped topic archive.
+ */
+.post-tags,
+.tag-index {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35em;
+  font-family: $heading-font-family;
+  font-size: 0.8rem;
+}
+
+.post-tags {
+  margin-top: -$spacing-unit / 3;
+}
+
+.post-tags-label {
+  color: $grey-color;
+}
+
+.tag-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.05em 0.45em;
+  border: 1px solid $grey-color-light;
+  border-radius: 999px;
+  background: rgba($brand-color, 0.04);
+  color: $brand-color;
+  line-height: 1.5;
+  text-decoration: none;
+
+  &:visited {
+    color: $brand-color;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $brand-color;
+    background: rgba($brand-color, 0.1);
+    text-decoration: none;
+  }
+}
+
+.tag-index {
+  margin-bottom: $spacing-unit * 1.5;
+}
+
+.tag-count {
+  min-width: 1.2em;
+  padding: 0 0.2em;
+  border-radius: 999px;
+  background: $grey-color-light;
+  color: $grey-color-dark;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.tag-section {
+  scroll-margin-top: $spacing-unit;
+
+  h2 {
+    margin-bottom: $spacing-unit / 2;
+    text-transform: capitalize;
+  }
+
+  & + & {
+    margin-top: $spacing-unit * 1.5;
+  }
+}
+
+/**
  * What's new — dated updates, no bullets.
  */
 .whats-new {

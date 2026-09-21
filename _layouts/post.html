@@ -24,6 +24,14 @@ layout: default
         {%- endif %}
       </span>
     </p>
+    {%- if page.tags.size > 0 -%}
+      <nav class="post-tags" aria-label="Topics">
+        <span class="post-tags-label">Topics:</span>
+        {%- for tag in page.tags -%}
+          <a class="tag-link" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag | replace: '-', ' ' }}</a>
+        {%- endfor -%}
+      </nav>
+    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
