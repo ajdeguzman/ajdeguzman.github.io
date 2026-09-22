@@ -19,7 +19,6 @@ layout: default
         {%- if page.comments != false and site.disqus.shortname.size > 0 %}
           <a class="comment-count" href="{{ page.url | absolute_url }}#disqus_thread" data-disqus-identifier="{{ page.url }}" title="View comments">
             <svg class="comment-count-icon" aria-hidden="true" focusable="false"><use xlink:href="{{ '/assets/minima-social-icons.svg#comment' | relative_url }}"></use></svg>
-            <span>Comments</span>
           </a>
         {%- endif %}
       </span>
@@ -37,6 +36,8 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- include post-navigation.html -%}
 
   {%- include comments.html -%}
 
