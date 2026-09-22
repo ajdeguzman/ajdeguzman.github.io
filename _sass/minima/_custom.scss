@@ -227,6 +227,51 @@ a:visited {
 }
 
 /**
+ * Article navigation — stays within Notebook or Life.
+ */
+.post-navigation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: $spacing-unit;
+  margin-top: $spacing-unit * 1.5;
+  padding-top: $spacing-unit;
+  border-top: 1px solid $grey-color-light;
+  font-family: $heading-font-family;
+}
+
+.post-navigation-link {
+  display: block;
+  min-width: 0;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+
+    .post-navigation-title { text-decoration: underline; }
+  }
+}
+
+.post-navigation-next {
+  grid-column: 2;
+  text-align: right;
+}
+
+.post-navigation-label {
+  display: block;
+  margin-bottom: 0.2em;
+  color: $grey-color;
+  font-size: $small-font-size;
+}
+
+.post-navigation-title {
+  display: block;
+  overflow-wrap: anywhere;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+/**
  * Topics — clickable post tags and the grouped topic archive.
  */
 .post-tags,

@@ -1,0 +1,51 @@
+{%- comment -%}
+  Previous/next links within the current post's section. Life posts navigate
+  only through Life; every other post navigates through Notebook.
+{%- endcomment -%}
+{%- assign current_is_life = false -%}
+{%- if page.categories contains "life" -%}
+  {%- assign current_is_life = true -%}
+{%- endif -%}
+
+{%- assign found_current = false -%}
+{%- assign previous_post = nil -%}
+{%- assign next_post = nil -%}
+
+{%- for candidate in site.posts -%}
+  {%- assign candidate_in_section = true -%}
+  {%- if current_is_life -%}
+    {%- unless candidate.categories contains "life" -%}
+      {%- assign candidate_in_section = false -%}
+    {%- endunless -%}
+  {%- elsif candidate.categories contains "life" -%}
+    {%- assign candidate_in_section = false -%}
+  {%- endif -%}
+
+  {%- if candidate_in_section -%}
+    {%- if candidate.url == page.url -%}
+      {%- assign found_current = true -%}
+    {%- elsif found_current -%}
+      {%- assign previous_post = candidate -%}
+      {%- break -%}
+    {%- else -%}
+      {%- assign next_post = candidate -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if previous_post or next_post -%}
+  <nav class="post-navigation" aria-label="Article navigation">
+    {%- if previous_post -%}
+      <a class="post-navigation-link post-navigation-previous" href="{{ previous_post.url | relative_url }}" rel="prev">
+        <span class="post-navigation-label">&larr; Previous</span>
+        <span class="post-navigation-title">{{ previous_post.title | escape }}</span>
+      </a>
+    {%- endif -%}
+    {%- if next_post -%}
+      <a class="post-navigation-link post-navigation-next" href="{{ next_post.url | relative_url }}" rel="next">
+        <span class="post-navigation-label">Next &rarr;</span>
+        <span class="post-navigation-title">{{ next_post.title | escape }}</span>
+      </a>
+    {%- endif -%}
+  </nav>
+{%- endif -%}
