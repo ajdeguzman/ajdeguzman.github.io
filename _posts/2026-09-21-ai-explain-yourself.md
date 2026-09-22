@@ -73,11 +73,11 @@ I just want to know why the car suddenly slammed on the brakes.
 
 The five papers approached XAI in autonomous vehicles from different angles, but they pointed toward the same challenge:
 
-- **Dong et al. (2022)** showed how a system could predict a driving action and generate an explanation for it—but a convincing explanation is not necessarily the real reason behind the decision.
-- **Kuznietsov et al. (2024)** presented XAI as useful not only for passengers, but also for designing, monitoring, validating, and assuring autonomous-driving systems.
-- **Kenny et al. (2026)** connected driving decisions to human-understandable concepts, making it easier to inspect what actually influenced the vehicle’s behavior.
-- **Atakishiyev et al. (2024)** emphasized that explanations must consider what should be explained, who needs the explanation, when it should appear, and how it should be delivered.
-- **Peintner et al. (2025)** found that the level of detail matters: more explanation can improve acceptance, but too much can reduce clarity or give passengers a false sense of control.
+- **Dong et al. (2022)**, in [*Development and Testing of an Image Transformer for Explainable Autonomous Driving Systems*](https://doi.org/10.1108/JICV-06-2022-0021), showed how a system could predict a driving action and generate an explanation for it—but a convincing explanation is not necessarily the real reason behind the decision.
+- **Kuznietsov et al. (2024)**, in [*Explainable AI for Safe and Trustworthy Autonomous Driving: A Systematic Review*](https://doi.org/10.1109/TITS.2024.3474469), presented XAI as useful not only for passengers, but also for designing, monitoring, validating, and assuring autonomous-driving systems.
+- **Kenny et al. (2026)**, in [*Explainable Deep Learning Improves Human Mental Models of Self-Driving Cars*](https://doi.org/10.1038/s41586-026-10950-5), connected driving decisions to human-understandable concepts, making it easier to inspect what actually influenced the vehicle’s behavior.
+- **Atakishiyev et al. (2024)**, in [*Incorporating Explanations into Human-Machine Interfaces for Trust and Situation Awareness in Autonomous Vehicles*](https://doi.org/10.1109/IV55156.2024.10588812), emphasized that explanations must consider what should be explained, who needs the explanation, when it should appear, and how it should be delivered.
+- **Peintner et al. (2025)**, in [*Balancing Transparency and Control: The Impact of AI Explanation Detail on User Perception in Automated Vehicles*](https://doi.org/10.1016/j.trip.2025.101742), found that the level of detail matters: more explanation can improve acceptance, but too much can reduce clarity or give passengers a false sense of control.
 
 Taken together, the studies show that a useful explanation must be **faithful, understandable, timely, and appropriate for its audience**. It should help people recognize both when the system deserves trust and when it does not.
 
@@ -104,3 +104,13 @@ It is also:
 **“Can we understand why it made that decision—and can we trust that explanation?”**
 
 Apparently, *“trust me bro”* isn’t quite enough.
+
+## References
+
+<ol class="references">
+  <li>J. Dong, S. Chen, M. Miralinaghi, T. Chen, and S. Labi. “<a href="https://doi.org/10.1108/JICV-06-2022-0021">Development and testing of an image transformer for explainable autonomous driving systems.</a>” <em>Journal of Intelligent and Connected Vehicles</em>, 5(3):235–249, 2022.</li>
+  <li>A. Kuznietsov, B. Gyevnar, C. Wang, S. Peters, and S. V. Albrecht. “<a href="https://doi.org/10.1109/TITS.2024.3474469">Explainable AI for safe and trustworthy autonomous driving: A systematic review.</a>” <em>IEEE Transactions on Intelligent Transportation Systems</em>, 25(12):19342–19364, 2024.</li>
+  <li>E. M. Kenny, A. Dharmavaram, S. U. Lee, et al. “<a href="https://doi.org/10.1038/s41586-026-10950-5">Explainable deep learning improves human mental models of self-driving cars.</a>” <em>Nature</em>, 657(8130):114–120, 2026.</li>
+  <li>S. Atakishiyev, M. Salameh, and R. Goebel. “<a href="https://doi.org/10.1109/IV55156.2024.10588812">Incorporating explanations into human-machine interfaces for trust and situation awareness in autonomous vehicles.</a>” <em>2024 IEEE Intelligent Vehicles Symposium (IV)</em>, pp. 2948–2955, 2024.</li>
+  <li>J. Peintner, C. Manger, M. Berger, and A. Riener. “<a href="https://doi.org/10.1016/j.trip.2025.101742">Balancing transparency and control: The impact of AI explanation detail on user perception in automated vehicles.</a>” <em>Transportation Research Interdisciplinary Perspectives</em>, 34:101742, 2025.</li>
+</ol>

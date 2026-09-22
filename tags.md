@@ -14,7 +14,7 @@ permalink: /tags/
     {% assign tag_posts = tag[1] %}
     <li>
       <a class="tag-link" href="#tag-{{ tag_name | slugify }}">
-        {{ tag_name | replace: "-", " " }}
+        {{ tag_name }}
         <span class="tag-count" aria-label="{{ tag_posts.size }} {% if tag_posts.size == 1 %}post{% else %}posts{% endif %}">{{ tag_posts.size }}</span>
       </a>
     </li>
@@ -26,7 +26,7 @@ permalink: /tags/
     {% assign tag_name = tag[0] %}
     {% assign tag_posts = tag[1] | sort: "date" | reverse %}
     <section class="tag-section" id="tag-{{ tag_name | slugify }}">
-      <h2>{{ tag_name | replace: "-", " " }}</h2>
+      <h2>{{ tag_name }}</h2>
       <ul class="notebook-list">
         {% for post in tag_posts %}
           <li>

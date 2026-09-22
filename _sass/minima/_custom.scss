@@ -226,6 +226,25 @@ a:visited {
   }
 }
 
+.post-content .references {
+  margin-left: 0;
+  list-style: none;
+  counter-reset: reference;
+
+  > li {
+    position: relative;
+    margin-bottom: $spacing-unit;
+    padding-left: 2em;
+    counter-increment: reference;
+
+    &::before {
+      position: absolute;
+      left: 0;
+      content: "[" counter(reference) "]";
+    }
+  }
+}
+
 /**
  * Article navigation — stays within Notebook or Life.
  */
@@ -319,9 +338,33 @@ a:visited {
 .tag-index {
   margin-left: 0;
   margin-bottom: $spacing-unit * 1.5;
+  gap: 0.55em;
+  font-size: 0.95rem;
   list-style: none;
 
   > li { margin: 0; }
+
+  .tag-link {
+    gap: 0.4em;
+    padding: 0.25em 0.7em;
+    border-color: #4F7A48;
+    background-color: #4F7A48;
+
+    &,
+    &:visited { color: #fff; }
+
+    &:hover,
+    &:focus {
+      border-color: darken(#4F7A48, 5%);
+      background-color: darken(#4F7A48, 5%);
+      color: #fff;
+    }
+
+    .tag-count {
+      background: rgba(#fff, 0.2);
+      color: #fff;
+    }
+  }
 }
 
 .tag-count {

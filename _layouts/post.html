@@ -27,7 +27,7 @@ layout: default
       <nav class="post-tags" aria-label="Tags">
         <span class="post-tags-label">Tags:</span>
         {%- for tag in page.tags -%}
-          <a class="tag-link" href="{{ '/tags/' | relative_url }}#tag-{{ tag | slugify }}">{{ tag | replace: '-', ' ' }}</a>
+          <a class="tag-link" href="{{ '/tags/' | relative_url }}#tag-{{ tag | slugify }}">{{ tag }}</a>
         {%- endfor -%}
       </nav>
     {%- endif -%}
