@@ -24,10 +24,10 @@ layout: default
       </span>
     </p>
     {%- if page.tags.size > 0 -%}
-      <nav class="post-tags" aria-label="Topics">
-        <span class="post-tags-label">Topics:</span>
+      <nav class="post-tags" aria-label="Tags">
+        <span class="post-tags-label">Tags:</span>
         {%- for tag in page.tags -%}
-          <a class="tag-link" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag | replace: '-', ' ' }}</a>
+          <a class="tag-link" href="{{ '/tags/' | relative_url }}#tag-{{ tag | slugify }}">{{ tag | replace: '-', ' ' }}</a>
         {%- endfor -%}
       </nav>
     {%- endif -%}

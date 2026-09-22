@@ -272,7 +272,7 @@ a:visited {
 }
 
 /**
- * Topics — clickable post tags and the grouped topic archive.
+ * Tags — clickable post tags and the tag index.
  */
 .post-tags,
 .tag-index {
@@ -317,7 +317,11 @@ a:visited {
 }
 
 .tag-index {
+  margin-left: 0;
   margin-bottom: $spacing-unit * 1.5;
+  list-style: none;
+
+  > li { margin: 0; }
 }
 
 .tag-count {
@@ -331,16 +335,22 @@ a:visited {
 }
 
 .tag-section {
+  display: none;
   scroll-margin-top: $spacing-unit;
+
+  &:target { display: block; }
 
   h2 {
     margin-bottom: $spacing-unit / 2;
     text-transform: capitalize;
   }
+}
 
-  & + & {
-    margin-top: $spacing-unit * 1.5;
-  }
+.tag-section-close {
+  display: inline-block;
+  margin-top: $spacing-unit / 2;
+  font-family: $heading-font-family;
+  font-size: $small-font-size;
 }
 
 /**

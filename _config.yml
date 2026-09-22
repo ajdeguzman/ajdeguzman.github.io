@@ -43,11 +43,10 @@ maintenance_message: I'm making a few updates. Please check back soon.
 header_pages:
   - about.md
   - life.md
-  - research.md
   - notebook.md
-  - tags.md
   - talks.md
   - races.md
+  - tags.md
 
 
 # Analytics. GoatCounter is cookie-free, so no consent banner is needed.

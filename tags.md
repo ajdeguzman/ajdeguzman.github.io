@@ -1,29 +1,31 @@
 ---
 layout: page
-title: Topics
-description: Browse Aj De Guzman's writing by topic.
+title: Tags
+description: Browse Aj De Guzman's writing by tag.
 permalink: /tags/
 ---
 
 {% assign sorted_tags = site.tags | sort %}
 
 {% if sorted_tags.size > 0 %}
-<nav class="tag-index" aria-label="All topics">
+<ul class="tag-index" aria-label="All tags">
   {% for tag in sorted_tags %}
     {% assign tag_name = tag[0] %}
     {% assign tag_posts = tag[1] %}
-    <a class="tag-link" href="#{{ tag_name | slugify }}">
-      {{ tag_name | replace: "-", " " }}
-      <span class="tag-count">{{ tag_posts.size }}</span>
-    </a>
+    <li>
+      <a class="tag-link" href="#tag-{{ tag_name | slugify }}">
+        {{ tag_name | replace: "-", " " }}
+        <span class="tag-count" aria-label="{{ tag_posts.size }} {% if tag_posts.size == 1 %}post{% else %}posts{% endif %}">{{ tag_posts.size }}</span>
+      </a>
+    </li>
   {% endfor %}
-</nav>
+</ul>
 
 <div class="tag-sections">
   {% for tag in sorted_tags %}
     {% assign tag_name = tag[0] %}
     {% assign tag_posts = tag[1] | sort: "date" | reverse %}
-    <section class="tag-section" id="{{ tag_name | slugify }}">
+    <section class="tag-section" id="tag-{{ tag_name | slugify }}">
       <h2>{{ tag_name | replace: "-", " " }}</h2>
       <ul class="notebook-list">
         {% for post in tag_posts %}
@@ -33,9 +35,10 @@ permalink: /tags/
           </li>
         {% endfor %}
       </ul>
+      <a class="tag-section-close" href="{{ '/tags/' | relative_url }}">&larr; All tags</a>
     </section>
   {% endfor %}
 </div>
 {% else %}
-<p>No topics yet.</p>
+<p>No tags yet.</p>
 {% endif %}
