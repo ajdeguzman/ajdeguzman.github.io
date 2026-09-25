@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Thoughts from the intersection of code, running, learning, and life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ajdeguzman.github.io"
-tagline: Integration Developer, J4RVIS | MSc CS Student
+tagline: Integration Developer | MSc CS Student
 profile_image: /assets/profile-dithered.png
 
 # Identity metadata used by jekyll-seo-tag to connect the site and its author.
