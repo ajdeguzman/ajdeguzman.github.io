@@ -205,6 +205,84 @@ a:visited {
 /**
  * Articles — newspaper-style opening initial.
  */
+.post-toc {
+  display: none;
+}
+
+/* Give long-form posts a dedicated right rail on wide screens while keeping
+   the article itself at minima's original readable width. */
+@media screen and (min-width: 1200px) {
+  .layout-post .page-content > .wrapper {
+    max-width: 1140px;
+  }
+
+  .layout-post .post {
+    max-width: 840px;
+  }
+
+  .post-toc {
+    position: fixed;
+    top: 50%;
+    left: calc(50% + 330px);
+    display: block;
+    width: 240px;
+    max-height: calc(100vh - #{$spacing-unit * 2});
+    overflow-y: auto;
+    padding-left: $spacing-unit / 2;
+    border-left: 1px solid $grey-color-light;
+    font-family: $heading-font-family;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    transform: translateY(-50%);
+  }
+
+  .post-toc[hidden] {
+    display: none;
+  }
+
+  .post-toc-title {
+    margin-bottom: $spacing-unit / 3;
+    color: $grey-color-dark;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .post-toc-list {
+    margin: 0;
+    list-style: none;
+
+    li {
+      margin-bottom: 0.55em;
+    }
+
+    a {
+      display: block;
+      color: $grey-color;
+      text-decoration: none;
+
+      &:visited {
+        color: $grey-color;
+      }
+
+      &:hover,
+      &:focus,
+      &[aria-current="location"] {
+        color: $brand-color;
+      }
+
+      &[aria-current="location"] {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .post-toc-level-h3 {
+    padding-left: $spacing-unit / 2;
+  }
+}
+
 .post.h-entry .post-content > p:first-of-type::first-letter {
   float: left;
   margin: -0.05em 0.12em 0 0;
