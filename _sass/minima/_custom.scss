@@ -218,6 +218,12 @@ a:visited {
 
   .layout-post .post {
     max-width: 840px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .layout-post .post.has-toc {
+    margin-left: 0;
   }
 
   .post-toc {
