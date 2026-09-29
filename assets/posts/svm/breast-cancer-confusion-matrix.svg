@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-labelledby="title description">
+  <title id="title">Breast Cancer Wisconsin dataset confusion matrix</title>
+  <desc id="description">The model correctly classified 41 Class 1 observations and 71 Class 2 observations. One observation from each class was misclassified.</desc>
+
+  <rect width="800" height="620" fill="#ffffff"/>
+
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <text x="400" y="48" fill="#424242" font-size="30" font-weight="700" text-anchor="middle">Confusion Matrix</text>
+
+    <text x="420" y="92" fill="#666666" font-size="18" font-weight="600" text-anchor="middle">Predicted class</text>
+    <text x="320" y="132" fill="#666666" font-size="17" text-anchor="middle">Class 1</text>
+    <text x="520" y="132" fill="#666666" font-size="17" text-anchor="middle">Class 2</text>
+
+    <text x="78" y="350" fill="#666666" font-size="18" font-weight="600" text-anchor="middle" transform="rotate(-90 78 350)">Actual class</text>
+    <text x="198" y="257" fill="#666666" font-size="17" text-anchor="end">Class 1</text>
+    <text x="198" y="457" fill="#666666" font-size="17" text-anchor="end">Class 2</text>
+
+    <rect x="220" y="150" width="200" height="200" rx="3" fill="#679d5e" stroke="#ffffff" stroke-width="4"/>
+    <rect x="420" y="150" width="200" height="200" rx="3" fill="#eef7ec" stroke="#ffffff" stroke-width="4"/>
+    <rect x="220" y="350" width="200" height="200" rx="3" fill="#eef7ec" stroke="#ffffff" stroke-width="4"/>
+    <rect x="420" y="350" width="200" height="200" rx="3" fill="#2c6723" stroke="#ffffff" stroke-width="4"/>
+
+    <text x="320" y="267" fill="#ffffff" font-size="54" font-weight="700" text-anchor="middle">41</text>
+    <text x="520" y="267" fill="#424242" font-size="54" font-weight="700" text-anchor="middle">1</text>
+    <text x="320" y="467" fill="#424242" font-size="54" font-weight="700" text-anchor="middle">1</text>
+    <text x="520" y="467" fill="#ffffff" font-size="54" font-weight="700" text-anchor="middle">71</text>
+
+    <text x="320" y="300" fill="#ffffff" font-size="15" text-anchor="middle">correctly classified</text>
+    <text x="520" y="300" fill="#666666" font-size="15" text-anchor="middle">misclassified</text>
+    <text x="320" y="500" fill="#666666" font-size="15" text-anchor="middle">misclassified</text>
+    <text x="520" y="500" fill="#ffffff" font-size="15" text-anchor="middle">correctly classified</text>
+
+    <text x="420" y="590" fill="#828282" font-size="15" text-anchor="middle">114 test observations • 112 correct • 2 incorrect</text>
+  </g>
+</svg>

@@ -223,13 +223,24 @@ a:visited {
   }
 
   .layout-post .post.has-toc {
+    max-width: 1110px;
     margin-left: 0;
   }
 
+  .layout-post .post.has-toc .post-header {
+    max-width: 840px;
+  }
+
+  .layout-post .post.has-toc .post-body {
+    display: grid;
+    grid-template-columns: minmax(0, 840px) 240px;
+    column-gap: $spacing-unit;
+    align-items: start;
+  }
+
   .post-toc {
-    position: fixed;
-    top: 50%;
-    left: calc(50% + 330px);
+    position: sticky;
+    top: $spacing-unit;
     display: block;
     width: 240px;
     max-height: calc(100vh - #{$spacing-unit * 2});
@@ -239,7 +250,6 @@ a:visited {
     font-family: $heading-font-family;
     font-size: 0.78rem;
     line-height: 1.35;
-    transform: translateY(-50%);
   }
 
   .post-toc[hidden] {
@@ -307,6 +317,44 @@ a:visited {
   a,
   a:visited {
     color: inherit;
+  }
+}
+
+.workflow-steps {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 24px;
+  margin: $spacing-unit 0;
+  font-family: $heading-font-family;
+  list-style: none;
+
+  li {
+    position: relative;
+    display: flex;
+    min-height: 72px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid lighten($brand-color, 42%);
+    border-radius: 6px;
+    background: lighten($brand-color, 58%);
+    color: $grey-color-dark;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+
+    &:not(:last-child)::after {
+      position: absolute;
+      top: 50%;
+      left: calc(100% + 6px);
+      width: 12px;
+      color: $brand-color;
+      content: "\2192";
+      font-size: 1.2rem;
+      line-height: 1;
+      text-align: center;
+      transform: translateY(-50%);
+    }
   }
 }
 
@@ -820,5 +868,21 @@ a:visited {
 
   .maintenance-panel h1 {
     @include relative-font-size(1.8);
+  }
+
+  .workflow-steps {
+    grid-template-columns: 1fr;
+    gap: 28px;
+
+    li {
+      min-height: 0;
+
+      &:not(:last-child)::after {
+        top: calc(100% + 8px);
+        left: 50%;
+        content: "\2193";
+        transform: translateX(-50%);
+      }
+    }
   }
 }

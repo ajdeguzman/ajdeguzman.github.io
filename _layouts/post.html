@@ -37,19 +37,23 @@ layout: default
     {%- endif -%}
   </header>
 
-  {%- include table-of-contents.html -%}
+  <div class="post-body">
+    <div class="post-main">
+      <div class="post-content e-content" itemprop="articleBody">
+        {{ content }}
+      </div>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+      {%- include post-navigation.html -%}
+
+      {%- include comments.html -%}
+
+      {%- if page.comments != false and site.disqus.shortname.size > 0 -%}
+        <script id="dsq-count-scr" src="https://{{ site.disqus.shortname }}.disqus.com/count.js" async></script>
+      {%- endif -%}
+    </div>
+
+    {%- include table-of-contents.html -%}
   </div>
-
-  {%- include post-navigation.html -%}
-
-  {%- include comments.html -%}
-
-  {%- if page.comments != false and site.disqus.shortname.size > 0 -%}
-    <script id="dsq-count-scr" src="https://{{ site.disqus.shortname }}.disqus.com/count.js" async></script>
-  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
