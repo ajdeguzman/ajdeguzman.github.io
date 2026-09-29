@@ -5,7 +5,7 @@ date: 2026-09-29 21:01 +0800
 categories: [notebook]
 tags: [classifiers, support-vector-machine, support-vector-regression, machine-learning, kernels, gamma]
 ---
-Last Sunday, we had another topic in **SC04**.
+Last Sunday, we had another topic in **SC03 (Non-Linear Techniques in ML)**.
 This time, it was another machine learning algorithm: **Support Vector Machine**, or **SVM**.
 
 From what I understood at first, SVM is another type of classifier. There is also **Support Vector Regression (SVR)**, which, as the name suggests, is the regression version.
