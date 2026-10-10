@@ -3,7 +3,7 @@ layout: post
 title: Yet Another Breast Cancer Dataset Analysis—or So I Thought
 date: 2026-10-10 23:20 +0800
 categories: [notebook]
-tags: [random-forest, wdbc, breast-cancer, decision-trees, logistic-regression, regression]
+tags: [random-forest, wdbc, breast-cancer, decision-trees, logistic-regression, regression, machine-learning]
 ---
 When I saw the Breast Cancer Wisconsin dataset again, my first thought was, "This dataset again?"
 We had already used it in several activities, so I expected another familiar routine. 
