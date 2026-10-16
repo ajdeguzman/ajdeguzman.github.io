@@ -3,7 +3,7 @@ layout: post
 title: SVM in 90 minutes
 date: 2026-09-29 21:01 +0800
 categories: [notebook]
-tags: [classifiers, support-vector-machine, support-vector-regression, machine-learning, kernels, gamma]
+tags: [classifiers, wdbc, breast-cancer, support-vector-machine, support-vector-regression, machine-learning, kernels, gamma]
 ---
 Last Sunday, we had another topic in **SC03 (Non-Linear Techniques in ML)**.
 This time, it was another machine learning algorithm: **Support Vector Machine**, or **SVM**.
