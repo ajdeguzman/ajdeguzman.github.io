@@ -39,167 +39,92 @@ a:visited {
 }
 
 /**
- * Site identity — profile image beside title, tagline and inline nav.
- * Replaces minima's default title-left / nav-right header.
+ * Plain site header and dated homepage index.
  */
-
-/* Undo minima's floated title / absolutely-positioned nav. _custom.scss is
-   imported last, so these plain selectors override _layout.scss at equal
-   specificity — including the rules minima puts inside media queries. */
 .site-header {
-  border-top: none;
+  border: none;
   min-height: auto;
-  padding: $spacing-unit 0;
-
-  /* minima sets line-height to ~3.8x the font size here, to vertically centre
-     the title in its single-row header. Our identity block stacks instead, so
-     that inherited value shows up as huge gaps between the title, tagline and
-     email. Back to normal rhythm. */
+  padding: $spacing-unit * 2 0 $spacing-unit;
   line-height: $base-line-height;
 }
 
 .site-title {
   float: none;
+  display: inline-block;
+  padding-right: 0;
+  margin-bottom: $spacing-unit / 2;
+  @include relative-font-size(1.25);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+
+  &,
+  &:visited { color: $text-color; }
 }
 
 .site-nav {
   position: static;
   float: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35em 0.75em;
   border: none;
-  background-color: transparent;
+  background: transparent;
   text-align: left;
   line-height: $base-line-height;
+  font-size: $small-font-size;
 
   .page-link {
     display: inline;
     padding: 0;
     margin-left: 0;
-  }
-
-  /* minima adds margin-right: 20px to every link but the last, at higher
-     specificity than the rule above. Left in place it sits only on one side
-     of the separator, so the dot reads off-centre. */
-  .page-link:not(:last-child) {
-    margin-right: 0;
-  }
-}
-
-.site-identity {
-  display: flex;
-  align-items: center;
-
-  > a {
-    flex-shrink: 0;
-    margin-right: $spacing-unit;
-  }
-
-  img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-  }
-}
-
-.site-identity-text {
-  min-width: 0;
-
-  p {
-    margin-bottom: 0;
-    font-size: $small-font-size;
-    color: $grey-color-dark;
-  }
-}
-
-.site-title {
-  @include relative-font-size(1.7);
-  font-weight: 700;
-  letter-spacing: -0.015em;
-  line-height: 1.2;
-  display: block;
-  margin-bottom: 0.15em;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
-}
-
-.site-nav {
-  margin-top: 0.4em;
-  color: $grey-color;
-  font-size: $small-font-size;
-
-  /* Flex rather than inline text. The separators are emitted with Liquid's
-     whitespace-stripping tags, which leaves no spaces between the links and so
-     no break opportunities — as one inline run the nav overflowed narrow
-     screens instead of wrapping. flex-wrap restores wrapping, and the column
-     gap keeps the dot centred without relying on margins. */
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  column-gap: 0.6em;
-  row-gap: 0.2em;
-
-  /* State every colour explicitly. Declaring only the default let the global
-     `a:visited` rule (green) take over once a link had been clicked, so the
-     menu changed colour as you browsed. */
-  .page-link {
-    line-height: $base-line-height;
+    line-height: inherit;
 
     &,
-    &:visited {
-      color: $brand-color;
-    }
+    &:visited { color: $brand-color; }
 
-    &:hover {
-      color: $text-color;
-      text-decoration: underline;
-    }
+    &:hover,
+    &[aria-current="page"] { text-decoration: underline; }
   }
 
-  /* $grey-color-light is #e8e8e8 — 1.2:1 on the page background, effectively
-     invisible. $grey-color gives 3.78:1 and still recedes behind the labels. */
+  .page-link:not(:last-child) { margin-right: 0; }
+
   .nav-sep {
-    margin: 0;
     color: $grey-color;
     user-select: none;
   }
 }
 
-/**
- * Home — intro, social row, then side-by-side sections.
- */
-
-.home-sections {
-  display: flex;
-  gap: $spacing-unit;
-
-  .column {
-    flex: 1 1 0;
-    min-width: 0;
-  }
-}
-
 .section-heading {
   @include relative-font-size(1.25);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit;
 }
 
-.home-sections .post-list {
-  margin-left: 0;
+.site-footer .footer-heading {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.home-post-list {
+  margin: 0;
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit / 1.5;
+    display: grid;
+    grid-template-columns: 5.5em minmax(0, 1fr);
+    align-items: baseline;
+    column-gap: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 3;
   }
 
-  h3 {
-    @include relative-font-size(1.1);
-    margin-bottom: 0;
-    font-weight: 600;
+  .post-meta {
+    color: $grey-color-dark;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
   }
+
+  a { overflow-wrap: anywhere; }
 }
 
 /**
@@ -209,31 +134,22 @@ a:visited {
   display: none;
 }
 
-/* Give long-form posts a dedicated right rail on wide screens while keeping
-   the article itself at minima's original readable width. */
+.layout-post .post-title {
+  @include relative-font-size(1.75);
+  line-height: 1.2;
+  letter-spacing: -0.011em;
+}
+
+.post-main {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+/* Keep the article and its contents rail inside the same wrapper as the menu. */
 @media screen and (min-width: 1200px) {
-  .layout-post .page-content > .wrapper {
-    max-width: 1140px;
-  }
-
-  .layout-post .post {
-    max-width: 840px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .layout-post .post.has-toc {
-    max-width: 1110px;
-    margin-left: 0;
-  }
-
-  .layout-post .post.has-toc .post-header {
-    max-width: 840px;
-  }
-
   .layout-post .post.has-toc .post-body {
     display: grid;
-    grid-template-columns: minmax(0, 840px) 240px;
+    grid-template-columns: minmax(0, 1fr) 210px;
     column-gap: $spacing-unit;
     align-items: start;
   }
@@ -242,7 +158,8 @@ a:visited {
     position: sticky;
     top: $spacing-unit;
     display: block;
-    width: 240px;
+    box-sizing: border-box;
+    width: 100%;
     max-height: calc(100vh - #{$spacing-unit * 2});
     overflow-y: auto;
     padding-left: $spacing-unit / 2;
@@ -822,29 +739,17 @@ a:visited {
 }
 
 @include media-query($on-palm) {
-  .site-identity {
-    flex-direction: column;
-    align-items: flex-start;
-
-    > a {
-      margin-right: 0;
-      margin-bottom: $spacing-unit / 2;
-    }
-
-    img { width: 100px; height: 100px; }
-  }
+  .site-header { padding-top: $spacing-unit; }
 
   .site-nav {
     column-gap: 0.9em;
-    row-gap: 0.35em;
 
     .nav-sep { display: none; }
   }
 
-  .home-sections {
-    display: block;
-
-    .column + .column { margin-top: $spacing-unit; }
+  .home-post-list > li {
+    grid-template-columns: 4.5em minmax(0, 1fr);
+    column-gap: $spacing-unit / 3;
   }
 
   .notebook-list .post-meta,
