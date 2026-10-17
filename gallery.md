@@ -14,8 +14,8 @@ permalink: /races/gallery/
 {%- assign photos = photos | where_exp: "f", "f.extname != '.md'" -%}
 {%- assign photos = photos | sort: "name" | reverse -%}
 
-Photos from the start lines, finish chutes and trails — the bits that don't fit
-in the [race log]({{ "/races/" | relative_url }}).
+Photos from my races and time on the trails.
+See the [race log]({{ "/races/" | relative_url }}) for distances and finish times.
 
 {% if photos.size > 0 %}
 <div class="gallery">

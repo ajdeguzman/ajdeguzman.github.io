@@ -14,8 +14,6 @@ permalink: /notebook/
   list into the paragraph above and escapes the markup.
 {% endcomment %}
 
-Here I write up what I'm working on, what I'm learning, and the odd thing worth
-remembering — notes from talks, things I've broken and fixed, and whatever else
-seems useful later.
+Notes from work and school, things I'm learning, and problems I've worked through.
 
-{% include post-list.html posts=site.posts exclude="life" empty="Nothing here yet — first entry coming soon." %}
+{% include post-list.html posts=site.posts exclude="life" empty="No posts yet." %}

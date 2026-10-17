@@ -13,7 +13,6 @@ permalink: /life/
   list into the paragraph above and escapes the markup.
 {% endcomment %}
 
-The non-technical half — travel, food, things I've been reading, and whatever
-else is going on away from a keyboard.
+Notes on travel, food, books, and everyday life.
 
-{% include post-list.html posts=site.categories.life empty="Nothing here yet — first entry coming soon." %}
+{% include post-list.html posts=site.categories.life empty="No posts yet." %}

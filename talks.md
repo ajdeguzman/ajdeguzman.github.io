@@ -5,8 +5,8 @@ description: Talks by Aj De Guzman about integration, MuleSoft, artificial intel
 permalink: /talks/
 ---
 
-Talks I've given at meetups, conferences and universities — mostly on
-Integration, MuleSoft, AI, and building a career in tech.
+Talks I've given at meetups, conferences, and universities about integration,
+MuleSoft, AI, and working in tech.
 
 <ul class="talk-list">
 {%- for talk in site.data.talks -%}

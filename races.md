@@ -14,9 +14,9 @@ permalink: /races/
   {%- assign total_km = total_km | plus: d -%}
 {%- endfor -%}
 
-Road, trail and ultra races — {{ done.size }} of them since
-{{ done.last.date | date: "%Y" }}, about {{ total_km }}km of racing all told.
-<br> There are 📸 [photos]({{ "/races/gallery/" | relative_url }}) too.
+I've finished {{ done.size }} road, trail, and ultra races since
+{{ done.last.date | date: "%Y" }}, covering about {{ total_km }} km.
+<br> [Photos from my races]({{ "/races/gallery/" | relative_url }}).
 
 {% if upcoming.size > 0 %}
 ## Upcoming
