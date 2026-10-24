@@ -32,7 +32,7 @@ I compared three models:
 - A decision tree
 - A random forest
 
-The work was done in Google Colab, but the code was not the part that stayed with me. What interested me more was how my expectations changed once I stopped looking only at the names of the models and started looking at the mistakes they made.
+The work was done in [Google Colab](https://ajdeguzman.github.io/homework/breast-cancer-analysis.html), but the code was not the part that stayed with me. What interested me more was how my expectations changed once I stopped looking only at the names of the models and started looking at the mistakes they made.
 
 ## My Complicated Model Did Not Win
 

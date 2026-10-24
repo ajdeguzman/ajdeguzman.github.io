@@ -222,7 +222,7 @@ But each step exists for a reason.
 
 ### Split the Data
 
-First, we keep a portion of the dataset aside as a final test set.
+The work was done in [Google Colab](https://ajdeguzman.github.io/homework/practical-svm.html). First, we keep a portion of the dataset aside as a final test set.
 
 The important part here is that we don't keep looking at the test set while making decisions about the model.
 
