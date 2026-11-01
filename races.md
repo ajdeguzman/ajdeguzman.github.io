@@ -24,9 +24,9 @@ I've finished {{ done.size }} road, trail, and ultra races since
 <ul class="race-list">
 {%- for race in upcoming -%}
   <li>
-    <span class="post-meta">{{ race.date | date: "%d %b %Y" }}</span> &raquo;
+    <span class="post-meta">{{ race.date | date: "%d %b %Y" }}</span> {% include list-icon.html %}
     {% if race.url %}<a href="{{ race.url }}">{{ race.name }}</a>{% else %}{{ race.name }}{% endif %}
-    <span class="race-meta">{{ race.distance }}{% if race.location %} &middot; {{ race.location }}{% endif %}</span>
+    <span class="race-meta"><span class="race-distance">{{ race.distance }}</span>{% if race.location %} &middot; {{ race.location }}{% endif %}</span>
   </li>
 {%- endfor -%}
 </ul>
@@ -39,7 +39,7 @@ I've finished {{ done.size }} road, trail, and ultra races since
 <ul class="race-list">
 {%- for race in year.items -%}
   <li>
-    <span class="post-meta">{{ race.date | date: "%d %b" }}</span> &raquo;
+    <span class="post-meta">{{ race.date | date: "%d %b" }}</span> {% include list-icon.html %}
     {%- if race.url %}
       <a href="{{ race.url }}">{{ race.name }}</a>
     {%- else %}

@@ -11,8 +11,3 @@ This is where I share thoughts and experiences from the intersection of code, ru
 
 Consider this a collection of things I’ve learned, built, experienced, and found worth sharing.
 
-
-You may contact me below:
-
-__Email: aljohndeguzman [at] gmail [dot] com__
-

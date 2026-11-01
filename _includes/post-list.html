@@ -15,7 +15,7 @@
   {%- endif -%}
   {%- assign shown = shown | plus: 1 -%}
   <li>
-    <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span> &raquo;
+    <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span> {% include list-icon.html %}
     <a href="{{ post.url | relative_url }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a>
     {%- if post.featured %} <span class="featured" title="Featured">&#9733;</span>{%- endif -%}
   </li>

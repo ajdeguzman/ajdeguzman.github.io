@@ -10,7 +10,7 @@ Things I've built:
 <ul class="project-list">
 {%- for project in site.data.projects -%}
   <li>
-    <span class="post-meta">{{ project.year }}</span> &raquo;
+    <span class="post-meta">{{ project.year }}</span> {% include list-icon.html %}
     {%- if project.url %}
       <a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a>
     {%- else %}

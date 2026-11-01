@@ -30,7 +30,7 @@ permalink: /tags/
       <ul class="notebook-list">
         {% for post in tag_posts %}
           <li>
-            <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span> &raquo;
+            <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span> {% include list-icon.html %}
             <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </li>
         {% endfor %}

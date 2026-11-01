@@ -34,6 +34,10 @@ samp {
  * (#142E10) and stops reading as a link at all. 6% keeps it distinguishable
  * from unvisited without falling out of the palette.
  */
+a {
+  font-weight: 500;
+}
+
 a:visited {
   color: darken($brand-color, 6%);
 }
@@ -101,9 +105,27 @@ a:visited {
   margin-bottom: $spacing-unit;
 }
 
-.site-footer .footer-heading {
-  font-size: 0.75rem;
-  font-weight: 400;
+.site-footer {
+  font-family: $heading-font-family;
+  font-size: $small-font-size;
+
+  .footer-col-wrapper,
+  .footer-heading {
+    font-size: inherit;
+  }
+
+  .footer-heading {
+    font-weight: 400;
+  }
+}
+
+.layout-page .post-content {
+  font-family: $heading-font-family;
+  font-size: $small-font-size;
+
+  .tag-index {
+    font-size: inherit;
+  }
 }
 
 .home-post-list {
@@ -465,8 +487,20 @@ a:visited {
 
 /**
  * Dated lists — the notebook index and the talks page share one format:
- * a fixed-width date, a guillemet, then the linked title.
+ * a fixed-width date, a chevron icon, then the linked title.
  */
+.list-icon {
+  width: 0.75em;
+  height: 0.75em;
+  margin: 0 0.15em;
+  vertical-align: -0.05em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .notebook-list,
 .talk-list,
 .race-list,
@@ -574,8 +608,15 @@ a:visited {
   }
 
   .race-distance {
-    color: $grey-color-dark;
+    display: inline-block;
+    padding: 0.05em 0.45em;
+    border: 1px solid $grey-color-light;
+    border-radius: 4px;
+    background: rgba($brand-color, 0.04);
+    color: $brand-color;
     font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
   }
 }
 

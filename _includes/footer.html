@@ -5,12 +5,10 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col one-half">
-        <p class="footer-heading">&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}</p>
-        <ul class="contact-list">
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
+        {%- if site.email -%}
+        <p class="footer-heading"><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        {%- endif -%}
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}</p>
       </div>
 
       <div class="footer-col one-half">

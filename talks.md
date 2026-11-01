@@ -11,7 +11,7 @@ MuleSoft, AI, and working in tech.
 <ul class="talk-list">
 {%- for talk in site.data.talks -%}
   <li>
-    <span class="post-meta">{{ talk.date }}</span> &raquo;
+    <span class="post-meta">{{ talk.date }}</span> {% include list-icon.html %}
     {%- if talk.url %}
       <a href="{{ talk.url | relative_url }}" target="_blank" rel="noopener">{{ talk.title }}</a>
     {%- else %}
