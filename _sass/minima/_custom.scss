@@ -124,7 +124,11 @@ a:visited {
     white-space: nowrap;
   }
 
-  a { overflow-wrap: anywhere; }
+  a {
+    font-family: $heading-font-family;
+    font-size: $small-font-size;
+    overflow-wrap: anywhere;
+  }
 }
 
 /**
