@@ -805,6 +805,12 @@ a:visited {
 @include media-query($on-palm) {
   .site-header { padding-top: $spacing-unit; }
 
+  .site-footer .footer-col {
+    float: none;
+    width: auto;
+    overflow-wrap: anywhere;
+  }
+
   .site-nav {
     column-gap: 0.6em;
 
